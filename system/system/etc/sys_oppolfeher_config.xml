@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <version>20200108</version>
+    <filter-name>sys_oppolfeher_config</filter-name>
+
+    <EncodeFileSwitch>true</EncodeFileSwitch>
+    <DeleteSrcFile>true</DeleteSrcFile>
+
+    <!-- ////////////////////// FOR MTK ////////////////////// -->
+    <!-- JunkLog -->
+    <mtkitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/log/DCS/de/junk_logs</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/junk_logs</encodedPath>
+        <filePrefix>.tar.gz</filePrefix> <!--eg:1,2,3-->
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>5</maxNum>
+    </mtkitem>
+    <!-- AeeLog | startScanDirThread, needZip and maxNum is disable -->
+    <mtkitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/log/DCS/de/AEE_DB/</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/AEE_DB/</encodedPath>
+        <filePrefix>db</filePrefix>
+        <delay>30000</delay>
+        <needZip>true</needZip>
+        <maxNum>2</maxNum>
+    </mtkitem>
+    <!-- NetworkStpDumpLog | startScanDirThread -->
+    <mtkitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/log/DCS/de/network_logs/stp_dump</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/network_logs/stp_dump</encodedPath>
+        <filePrefix>connsys_core_dump</filePrefix> <!--eg:1,2,3-->
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>2</maxNum>
+    </mtkitem>
+    <!-- RamDumpLog | startScanDirThread -->
+    <mtkitem>
+        <switch>true</switch>
+        <targetPath>/data/ramdump</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/modem_logs/ramdump</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>2</maxNum>
+    </mtkitem>
+    <!-- PSWLog | startScanDirThread -->
+    <mtkitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/psw/dcs</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/dcs</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>2</maxNum>
+    </mtkitem>
+    <!-- Hang_OPPO_Log | startScanDirThread -->
+    <mtkitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/log/opporeserve/media/log/hang_oppo</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/hang_oppo</encodedPath>
+        <filePrefix>waitcommit_</filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>2</maxNum>
+    </mtkitem>
+    <!-- NetworkWifiSwitch | startScanDirThread -->
+    <mtkitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/log/DCS/de/network_logs/wifiSwitch</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/network_logs/wifiSwitch</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>2</maxNum>
+    </mtkitem>
+    <!-- NetworkWifiDump | startScanDirThread -->
+    <mtkitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/log/DCS/de/network_logs/wifi</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/network_logs/wifi</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>2</maxNum>
+    </mtkitem>
+    <!-- wfd_connect_fail | startScanDirThread -->
+    <mtkitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/log/DCS/de/network_logs/wfd_connect_fail</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/network_logs/wfd_connect_fail</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>2</maxNum>
+    </mtkitem>
+    <!-- oshare_connect_fail | startScanDirThread -->
+    <mtkitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/log/DCS/de/network_logs/oshare_connect_fail</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/network_logs/oshare_connect_fail</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>2</maxNum>
+    </mtkitem>
+    <!-- MultimediaDisplay | startScanDirThread -->
+    <mtkitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/log/DCS/de/psw_multimedia_display</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/psw_multimedia_display</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>2</maxNum>
+    </mtkitem>
+    <!-- eapSwitch | startScanDirThread -->
+    <mtkitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/coloros/eap</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/eap</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>20</maxNum>
+    </mtkitem>
+    <!-- eapSwitch | startScanDirThread -->
+    <mtkitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/coloros/eap_moa/anr</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/eap_moa/anr</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>20</maxNum>
+    </mtkitem>
+    <!-- eapSwitch | startScanDirThread -->
+    <mtkitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/coloros/eap_moa/crash</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/eap_moa/crash</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>20</maxNum>
+    </mtkitem>
+    <!-- netLogSwitch | startScanDirThread -->
+    <mtkitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/coloros/dcs/netlog</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/dcs/netlog</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>2</maxNum>
+    </mtkitem>
+    <!-- MemExceptionLog | startScanDirThread -->
+    <mtkitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/log/DCS/de/mem_exception_log</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/mem_exception_log</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>20</maxNum>
+    </mtkitem>
+    <!-- QualityLog | startScanDirThread -->
+    <mtkitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/log/DCS/de/quality_log</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/quality_log</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>2</maxNum>
+    </mtkitem>
+    <!-- PSWThermal | startScanDirThread -->
+    <mtkitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/psw/thermal</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/thermal</encodedPath>
+        <filePrefix>HEAT</filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>2</maxNum>
+    </mtkitem>
+    <!-- PSWThermal2.0 | startScanDirThread -->
+    <mtkitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/log/DCS/de/trace_viewer</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/trace_viewer</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>10</maxNum>
+    </mtkitem>
+    <!-- MultimediaPerf | startScanDirThread -->
+    <mtkitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/log/DCS/de/psw_multimedia_perf</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/psw_multimedia_perf</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>2</maxNum>
+    </mtkitem>
+    <!-- GpuSnapshot | startScanDirThread -->
+    <mtkitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/mmdump/gpu</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/mm_logs/ramdump/gpu</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>true</needZip>
+        <maxNum>2</maxNum>
+    </mtkitem>
+    <!-- DropboxChatty | startScanDirThread -->
+    <mtkitem>
+        <switch>true</switch>
+        <targetPath>/data/system/dropbox/chatty</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/chatty</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>2</maxNum>
+    </mtkitem>
+    <!-- Shutdown | startScanDirThread -->
+    <mtkitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/log/opporeserve/media/log/shutdown</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/shutdown</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>2</maxNum>
+    </mtkitem>
+    <!-- theia | startScanDirThread -->
+    <mtkitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/log/DCS/de/theia</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/theia</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>2</maxNum>
+    </mtkitem>
+    <!-- ////////////////////// FOR QCOM ////////////////////// -->
+    <!-- JunkLog -->
+    <qcomitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/log/DCS/de/junk_logs</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/junk_logs</encodedPath>
+        <filePrefix>.tar.gz</filePrefix> <!--eg:1,2,3-->
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>5</maxNum>
+    </qcomitem>
+    <!-- RamDumpLog | startPatchUpAndEncodeThread, filePrefix, delay, needZip and maxNum is disable -->
+    <qcomitem>
+        <switch>true</switch>
+        <targetPath>/data/vendor/ramdump</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/modem_logs/ramdump</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>0</maxNum>
+    </qcomitem>
+    <!-- RamDumpLog | startPatchUpAndEncodeThread, filePrefix, delay, needZip and maxNum is disable -->
+    <qcomitem>
+        <switch>true</switch>
+        <targetPath>/data/vendor/ramdump/SDX55M</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/modem_logs/ramdump</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>0</maxNum>
+    </qcomitem>
+    <!-- PSWLog | startScanDirThread -->
+    <qcomitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/psw/dcs</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/dcs</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>2</maxNum>
+    </qcomitem>
+    <!-- Hang_OPPO_Log | startScanDirThread -->
+    <qcomitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/log/opporeserve/media/log/hang_oppo</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/hang_oppo</encodedPath>
+        <filePrefix>waitcommit_</filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>2</maxNum>
+    </qcomitem>
+    <!-- NetworkWifiSwitch | startScanDirThread -->
+    <qcomitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/log/DCS/de/network_logs/wifiSwitch</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/network_logs/wifiSwitch</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>2</maxNum>
+    </qcomitem>
+    <!-- NetworkWifiDump | startScanDirThread -->
+    <qcomitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/log/DCS/de/network_logs/wifi</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/network_logs/wifi</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>2</maxNum>
+    </qcomitem>
+    <!-- wfd_connect_fail | startScanDirThread -->
+    <qcomitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/log/DCS/de/network_logs/wfd_connect_fail</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/network_logs/wfd_connect_fail</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>2</maxNum>
+    </qcomitem>
+    <!-- oshare_connect_fail | startScanDirThread -->
+    <qcomitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/log/DCS/de/network_logs/oshare_connect_fail</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/network_logs/oshare_connect_fail</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>2</maxNum>
+    </qcomitem>
+    <!-- MultimediaDisplay | startScanDirThread -->
+    <qcomitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/log/DCS/de/psw_multimedia_display</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/psw_multimedia_display</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>2</maxNum>
+    </qcomitem>
+    <!-- MiniDump | startScanDirThread -->
+    <qcomitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/log/DCS/de/minidump</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/minidump</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>2</maxNum>
+    </qcomitem>
+    <!-- eapSwitch | startScanDirThread -->
+    <qcomitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/coloros/eap</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/eap</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>20</maxNum>
+    </qcomitem>
+    <!-- eapSwitch | startScanDirThread -->
+    <qcomitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/coloros/eap_moa/anr</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/eap_moa/anr</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>20</maxNum>
+    </qcomitem>
+    <!-- eapSwitch | startScanDirThread -->
+    <qcomitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/coloros/eap_moa/crash</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/eap_moa/crash</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>20</maxNum>
+    </qcomitem>
+    <!-- MemExceptionLog | startScanDirThread -->
+    <qcomitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/log/DCS/de/mem_exception_log</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/mem_exception_log</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>20</maxNum>
+    </qcomitem>
+    <!-- QualityLog | startScanDirThread -->
+    <qcomitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/log/DCS/de/quality_log</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/quality_log</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>2</maxNum>
+    </qcomitem>
+    <!-- PSWThermal | startScanDirThread -->
+    <qcomitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/psw/thermal</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/thermal</encodedPath>
+        <filePrefix>HEAT</filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>2</maxNum>
+    </qcomitem>
+    <!-- PSWThermal2.0 | startScanDirThread -->
+    <qcomitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/log/DCS/de/trace_viewer</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/trace_viewer</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>10</maxNum>
+    </qcomitem>
+    <!-- MultimediaPerf | startScanDirThread -->
+    <qcomitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/log/DCS/de/psw_multimedia_perf</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/psw_multimedia_perf</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>2</maxNum>
+    </qcomitem>
+    <!-- GpuSnapshot | startScanDirThread -->
+    <qcomitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/mmdump/gpu</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/mm_logs/ramdump/gpu</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>true</needZip>
+        <maxNum>2</maxNum>
+    </qcomitem>
+    <!-- DropboxChatty | startScanDirThread -->
+    <qcomitem>
+        <switch>true</switch>
+        <targetPath>/data/system/dropbox/chatty</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/chatty</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>2</maxNum>
+    </qcomitem>
+    <!-- shutdown | startScanDirThread -->
+    <qcomitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/log/opporeserve/media/log/shutdown</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/shutdown</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>2</maxNum>
+    </qcomitem>
+    <!-- mm_logs | startScanDirThread -->
+    <qcomitem>
+        <switch>true</switch>
+        <targetPath>/data/vendor/mmdump/venus</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/mm_logs/ramdump/venus</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>2</maxNum>
+    </qcomitem>
+    <!-- mm_logs | startScanDirThread -->
+    <qcomitem>
+        <switch>true</switch>
+        <targetPath>/data/vendor/mmdump/adsp</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/mm_logs/ramdump/adsp</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>2</maxNum>
+    </qcomitem>
+    <!-- theia | startScanDirThread -->
+    <qcomitem>
+        <switch>true</switch>
+        <targetPath>/data/oppo/log/DCS/de/theia</targetPath>
+        <encodedPath>/data/oppo/log/DCS/en/theia</encodedPath>
+        <filePrefix></filePrefix>
+        <delay>0</delay>
+        <needZip>false</needZip>
+        <maxNum>2</maxNum>
+    </qcomitem>
+</filter-conf>

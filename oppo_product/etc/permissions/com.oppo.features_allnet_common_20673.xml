@@ -1,0 +1,19 @@
+<permissions>
+    <!-- ifdef VENDOR_EDIT -->
+    <!-- Wenjie.Zhong@PSW.BSP.TP, 2020/05/15, Add for blackgesture -->
+    <feature name="oppo.lcd.first.tp.last.support"/>
+    <!-- gaokai@Cam.Drv, 2020/06/11, Add for fingerprint shutter -->
+    <feature name="oppo.camera.fingerprint.shutter"/>
+    <!-- Congxian.Yan@APP.DocVault, 17/1/2020, Adding the feature check for DocVault entry in Gallery  -->
+    <feature name="oppo.docvault.support" />
+    <!-- Fangfang.Hui@PSW.AD.FaceRecognition.1070880, 2017/10/28, Add for Face recognition support -->
+    <feature name="oppo.hardware.face.support" />
+    <!-- Honglin.Huang@ODM_HQ.BSP.Feature,2020/06/23,add for hypnus benchmark perf mode-->
+    <feature name="realme.hypnus.perf.benchmark.support" />
+    <!-- qiukangwen@PWS.ANDROID, 2020/06/16-->
+    <feature name="oppo.display.screen.90hz.support"/>
+    <!-- Yugang.Bao@PSW.AD.BuildConfig, 2020/02/21, add for Enable Zero Touch Provisioning support. -->
+    <feature name="com.google.android.feature.ZERO_TOUCH" />
+    <!-- Binqiang.Luo@RM.AD.Wms.0000, 2020/07/28, Add for benchmark support -->
+    <feature name="oppo.benchmark.support"/>
+</permissions>

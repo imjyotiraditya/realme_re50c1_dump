@@ -1,0 +1,15 @@
+<permissions>
+    <!-- Dongting.Mei@PSW.MM.Display.Feature, 2019/07/26, add for heteromorphism on 19081 -->
+    <feature name="com.oppo.feature.screen.heteromorphism"/>
+    <!-- Deyuan.Lu@PSW.MM.Display.Feature,2020/06/03,add for 2047 -->
+    <feature name="oppo.feature.20673" />
+    <feature name="oppo.display.screen.gloablehbm.support" />
+
+	<feature name="oppo.mmdisplay.origin.roundcorner.support" />
+    <feature name="oppo.display.screen.defaultsmartmode" />
+    <feature name="oppo.eyeprotect.support" />
+    <feature name="cabc.level.dynamic.enable" />
+    <feature name="oppo.multi.device.decrease.refresh.rate" />
+    <!-- Chenyang.Zhang@RM.MM.AuioServer.Policy, 2020/01/07, Add for DualHeadPhone -->
+    <feature name="realme.multimedia.dualheadphone"/>
+</permissions>

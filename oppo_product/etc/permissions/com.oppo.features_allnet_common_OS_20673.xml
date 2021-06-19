@@ -1,0 +1,9 @@
+<permissions>
+    <feature name="com.realme.freeze.support"/>
+    <feature name="realme.laboratory.support"/>
+    <feature name="realme.customize.function.support.alexa"/>
+    <!-- mazhiqiang@realmeUI, 2020/06/24, Add for list optimize -->
+    <feature name="realme.common.listoptimize.support" />
+    <!-- mazhiqiang@realmeUI, 2020/07/29, Add for realme sleep -->
+    <feature name="realme.common.deepsleep.support" />
+</permissions>

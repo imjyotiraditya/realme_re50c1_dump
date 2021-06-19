@@ -1,0 +1,11 @@
+on post-fs-data
+    mkdir /data/nandswap 0700 root root
+
+service init.oppo.nandswap.sh /system/bin/sh /product/bin/init.oppo.nandswap.sh
+    class late_start
+    user root
+    disabled
+    oneshot
+
+on property:sys.boot_completed=1
+    start init.oppo.nandswap.sh

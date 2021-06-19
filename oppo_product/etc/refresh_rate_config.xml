@@ -1,0 +1,1939 @@
+<!--此名单配置规则-->
+<!--同步20001规则-->
+<refresh_rate_config>
+<version>20200623</version>
+<activity>com.oppo.camera/com.oppo.camera.ui.menu.setting.CameraSettingActivity,1</activity> <!--相机的设置界面-->
+<activity>com.antutu.ABenchMark/com.antutu.benchmark.ui.testscreen.activity.TouchAreaActivity,1</activity> <!--安兔兔-->
+<activity>com.coloros.video/com.oppo.video.mycenter.MoviePlayerActivity,2</activity> <!--内置视频播放需要-->
+<activity>com.android.incallui/com.android.incallui.OppoInCallActivity,2</activity> <!--通话界面-->
+<activity>android.view.cts/android.view.cts.DisplayRefreshRateCtsActivity,2</activity> <!--CTS测试fail-->
+<activity>android.view.cts/android.view.cts.surfacevalidator.CapturedActivity,2</activity> <!--CTS测试fail-->
+<activity>com.orange.live/com.tg.live.ui.activity.RoomActivity,2</activity> <!--桔色直播中直播场景-->
+<activity>com.fosung.lighthouse/com.fosung.lighthouse.master.amodule.main.activity.NewsDetailActivity,2</activity> <!--灯塔党建中视频-->
+<activity>com.quanmincai.caipiao/com.quanmincai.activity.information.ActionDetailActivity,2</activity> <!--全民彩票中视频-->
+<activity>io.dcloud.UNI098B211/io.dcloud.PandoraEntryActivity,2</activity> <!--短视频去水印中视频-->
+<activity>com.ctdsbwz.kct/com.ctdsbwz.kct.ui.activity.NewsDetailActivity,2</activity> <!--看楚天中视频-->
+<activity>com.cjtec.fmradio/com.yidian.newssdk.core.detail.article.video.YdVideoActivity,2</activity> <!--FM手机调频收音机中视频-->
+<activity>com.tencent.android.qqdownloader/com.tencent.cloud.activity.VideoActivityV2,2</activity> <!--应用宝中视频-->
+<activity>com.qqgame.hlddz/com.tencent.msdk.webview.WebViewActivity,2</activity> <!--欢乐斗地主中视频-->
+<activity>com.suning.mobile.epa/com.suning.webview.H5UCBaseActivity,2</activity> <!--苏宁金融中视频-->
+<activity>com.kwai.videoeditor/com.kwai.videoeditor.activity.WebActivity,2</activity> <!--快影中视频-->
+<activity>com.chinamobile.mcloud/cn.hotview.tv.PlayerActivity,2</activity> <!--和彩云中视频-->
+<activity>com.uroad.carclub/com.uroad.carclub.FM.activity.ArticleDetailActivity,2</activity> <!--ETC车宝中视频-->
+<activity>com.dalongtech.cloud/com.dalongtech.cloud.app.home.HomePageActivity,2</activity> <!--云电脑中视频-->
+<activity>com.superstar.fantuan/com.asiainno.starfan.imagereview.ImagePagerActivity,2</activity> <!--超级星饭团中视频播放-->
+<activity>com.superstar.fantuan/com.asiainno.starfan.media.VideoDetailActivity,2</activity> <!--超级星饭团中视频播放-->
+<activity>com.xm.csee/com.xworld.MainActivity,2</activity> <!--超级看看中视频-->
+<activity>info.red.virtual/com.yidian.newssdk.core.detail.article.video.YdVideoActivity,2</activity> <!--微信多开悟空分身中视频-->
+<activity>com.hisunflytone.android/com.migu.browser.mvp.ui.activity.BrowserActivity,2</activity> <!--咪咕圈圈中视频-->
+<activity>com.fiberhome.exmobi.client.gaeaclientandroidedn7262/com.wdtrgf.homepage.ui.activity.ProductDetailActivity,2</activity> <!--天然工坊中视频-->
+<activity>com.cloudwallet/com.cloudwallet.ui.activity.VideoWebActivity,2</activity> <!--云钱包中视频-->
+<activity>kaixin4.xiaoshuo3/kaixin4.xiaoshuo3.MainActivity,2</activity> <!--小公主苏菲亚全集中视频-->
+<activity>com.sicent.app.baba/com.sicent.app.baba.ui.setting.BabaWebActivity,2</activity> <!--网喵中视频-->
+<activity>com.tencent.qqgame.xq/com.tencent.msdk.webview.WebViewActivity,2</activity> <!--天天象棋中视频-->
+<activity>com.husor.beibei/com.husor.beibei.pdtdetail.PdtDetailActivity,2</activity> <!--贝贝中视频-->
+<activity>com.truckhome.bbs/com.truckhome.bbs.news.activity.VideoDetailsActivity,2</activity> <!--卡车之家中视频-->
+<activity>com.yirendai/com.yirendai.ui.more.WebActivity,2</activity> <!--宜人贷借款中视频-->
+<activity>com.gdhbgh.activity/com.telecom.vhealth.ui.activities.movement.MovementWebActivity,2</activity> <!--翼健康中视频-->
+<activity>com.gdhbgh.activity/com.telecom.vhealth.ui.activities.main.MainActivity5,2</activity> <!--翼健康中视频-->
+<activity>com.greenline.guahao/com.greenline.guahao.webkit.MainProcessCommonWebActivity,2</activity> <!--微医中视频-->
+<activity>com.youliao.topic/com.youliao.topic.MainActivity,2</activity> <!--有料看看中视频-->
+<activity>com.jx.privatebrowser/com.cy.browser.BrowserActivity,2</activity> <!--私密浏览器中视频-->
+<activity>com.tencent.mm/com.tencent.mm.plugin.recordvideo.activity.MMRecordUI,2</activity> <!--微信中拍摄场景-->
+<activity>com.tencent.mm/com.tencent.mm.plugin.voip.ui.VideoActivity,2</activity> <!--微信语音/视频聊天界面-->
+<activity>com.tencent.mm/com.tencent.mm.ui.chatting.gallery.ImageGalleryUI,2</activity> <!--微信聊天界面播放小视频-->
+<activity>com.tencent.mm/com.tencent.mm.plugin.appbrand.ui.AppBrandUI1,2</activity> <!--微信小程序-->
+<activity>com.tencent.mm/com.tencent.mm.plugin.appbrand.ui.AppBrandUI2,2</activity> <!--微信小程序-->
+<activity>com.tencent.mm/com.tencent.mm.plugin.sns.ui.SnsOnlineVideoActivity,2</activity> <!--微信朋友圈播放视频-->
+<activity>com.tencent.mobileqq/dov.com.qq.im.QIMCameraCaptureActivity,2</activity> <!--QQ中拍摄场景-->
+<activity>com.tencent.mobileqq/com.tencent.mobileqq.activity.aio.photo.AIOGalleryActivity,2</activity> <!--QQ聊天界面播放小视频-->
+<activity>com.tencent.mobileqq/com.tencent.mobileqq.gallery.view.AIOGalleryActivity,2</activity> <!---->
+<activity>com.tencent.mobileqq/com.tencent.av.ui.AVActivity,2</activity> <!--QQ语音聊天界面-->
+<activity>com.tencent.mobileqq/com.tencent.mobileqq.minigame.ui.GameActivity3,2</activity> <!--QQ小游戏-->
+<activity>com.tencent.mobileqq/com.tencent.mobileqq.activity.SplashActivity,1</activity> <!--QQ聊天界面-->
+<activity>com.tencent.mobileqq/com.tencent.mobileqq.activity.QQBrowserActivity,1</activity> <!--QQ运动界面-->
+<activity>com.youloft.calendar/com.youloft.calendar.WebActivity,2</activity> <!--万年历中播放视频-->
+<activity>com.taobao.mobile.dipei/com.alipay.mobile.nebulacore.ui.H5Activity,2</activity> <!--口碑中视频播放-->
+<activity>com.Qunar/com.mqunar.hy.browser.activity.HyWebActivity01,2</activity> <!--去哪旅行中视频播放-->
+<activity>com.yiban.app/com.yiban.app.activity.LightAppActivity,2</activity> <!--易班中视频播放-->
+<activity>com.dotamax.app/com.max.app.module.live.WebViewActivity,2</activity> <!--max+中视频播放-->
+<activity>video.vue.android/video.vue.android.footage.ui.timeline.fullscreen.FullScreenVideoActivity,2</activity> <!--vue中视频播放-->
+<activity>com.xinhang.mobileclient/com.xinhang.mobileclient.ui.activity.HomeActivity,2</activity> <!--河南移动中小视频播放-->
+<activity>com.taobao.taobao/com.taobao.taolive.room.TaoLiveVideoActivity,2</activity> <!--淘宝中直播界面-->
+<activity>com.sina.weibo/com.sina.weibo.video.recommend.RecommendVideoFeedActivity,2</activity> <!--微博中视频播放-->
+<activity>com.sina.weibo/com.sina.weibo.video.detail.VideoDetailActivity,2</activity> <!--微博中视频播放-->
+<activity>com.sina.weibo/com.sina.weibo.story.gallery.activity.VVSActivity,2</activity> <!--微博中视频播放-->
+<activity>com.sina.weibo/com.sina.weibo.page.SuperPageActivity,1</activity> <!--微博热搜-->
+<activity>com.ss.android.article.news/com.ss.android.video.impl.feed.immersion.ImmerseDetailActivity,2</activity> <!--今日头条中视频播放-->
+<activity>com.ss.android.article.news/com.ss.android.live.host.livehostimpl.LivePlayerActivity,2</activity> <!--今日头条中视频播放-->
+<activity>com.ss.android.article.news/com.ss.android.live.host.livehostimpl.LivePlayerTransActivity,2</activity> <!--今日头条中视频播放-->
+<activity>com.ss.android.article.news/com.ss.android.ugc.detail.detail.ui.v2.view.TikTokDetailActivity,2</activity> <!--今日头条中视频播放-->
+<activity>com.xingin.xhs/com.xingin.matrix.videofeed.ui.VideoFeedActivityV2,2</activity> <!--小红书中视频播放-->
+<activity>com.ss.android.article.news/com.ss.android.publisher.PublisherActivity,2</activity> <!--今日头条中相机拍摄-->
+<activity>com.hipu.yidian/com.yidian.news.ui.newsmain.NewsActivity,2</activity> <!--一点资讯中视频播放-->
+<activity>com.hipu.yidian/com.yidian.news.ui.content.video.vine.VineActivity,2</activity> <!--一点资讯中视频播放-->
+<activity>com.tencent.reading/com.tencent.reading.video.immersive.activity.ImmersiveVideoActivity,2</activity> <!--天天快报中视频播放-->
+<activity>com.tencent.reading/com.tencent.reading.bixin.video.detail.BixinVideoDetailActivity,2</activity> <!--天天快报中视频播放-->
+<activity>com.tencent.news/com.tencent.news.kkvideo.shortvideo.VerticalVideoVideoActivity,2</activity> <!--腾讯新闻中视频播放-->
+<activity>com.tencent.news/com.tencent.news.rose.RoseLiveDetailActivity,2</activity> <!--腾讯新闻中视频播放-->
+<activity>com.tencent.news/com.tencent.news.kkvideo.detail.KkAlbumDarkModeActivity,2</activity> <!--腾讯新闻中视频播放-->
+<activity>com.heytap.browser/com.heytap.browser.video.news.VideoDetailActivity,2</activity> <!--OPPO浏览器播放视频-->
+<package>com.heytap.pictorial,1</package> <!--锁屏杂志-->
+<package>com.coloros.pictorial,1</package> <!--锁屏杂志-->
+<package>com.coloros.gallery3d,1</package> <!--相册-->
+<package>com.coloros.filemanager,1</package> <!--文件管理器-->
+<package>com.coloros.soundrecorder,1</package> <!--录音机-->
+<package>com.coloros.alarmclock,1</package> <!--时钟-->
+<package>com.coloros.flashlight,1</package> <!--手电-->
+<package>com.coloros.feedback,1</package> <!--帮助与反馈-->
+<package>com.coloros.weather,1</package> <!--天气-->
+<package>com.coloros.weather2,1</package> <!--天气-->
+<package>com.coloros.smartdrive,1</package> <!--智能驾驶-->
+<package>com.coloros.compass,1</package> <!--指南针-->
+<package>com.coloros.compass2,1</package> <!--指南针-->
+<package>com.coloros.wallpapers,1</package> <!--壁纸-->
+<package>com.coloros.oshare,1</package> <!--互传-->
+<package>com.coloros.directui,1</package> <!--智慧识屏-->
+<package>com.coloros.phonemanager,1</package> <!--手机管家-->
+<package>com.coloros.favorite,1</package> <!--自由收藏-->
+<package>com.coloros.safe.service.framework,1</package> <!--OPPO安全服务框架-->
+<package>com.coloros.colorfilestand,1</package> <!--文件台-->
+<package>com.coloros.smartlock,1</package> <!--智能解锁-->
+<package>com.coloros.onekeylockscreen,1</package> <!--一键锁屏-->
+<package>com.coloros.lives,1</package> <!--黄页-->
+<package>com.coloros.oppopods,1</package> <!--OPPO O-Free-->
+<package>com.coloros.flowmarket,1</package> <!--流量超市-->
+<package>com.coloros.personalassistant,1</package> <!--Breeno 空间-->
+<package>com.coloros.sceneservice,1</package> <!--数据服务平台-->
+<package>com.coloros.digitalwellbeing,1</package> <!--应用使用时间-->
+<package>com.coloros.wallet,1</package> <!--OPPO 钱包-->
+<package>com.finshell.wallet,1</package> <!---->
+<package>com.coloros.familyguard,1</package> <!--远程守护-->
+<package>com.coloros.phoneclonedownloade,1</package> <!--手机搬家下载器-->
+<package>com.coloros.aruler,1</package> <!--AR测量-->
+<package>com.baidu.input_oppo,1</package> <!--百度输入法OPPO版-->
+<package>com.oppo.news,1</package> <!--一点资讯-->
+<package>com.oppo.ohome,1</package> <!--智能家居-->
+<package>com.heytap.smarthome,1</package> <!---->
+<package>com.nearme.themespace,1</package> <!--主题商店-->
+<package>com.heytap.themestore,1</package> <!--主题商店-->
+<package>com.nearme.gamecenter,1</package> <!--游戏中心-->
+<package>com.nearme.note,1</package> <!--便签-->
+<package>com.coloros.note,1</package> <!--便签-->
+<package>com.nearme.ocloud,1</package> <!--云服务-->
+<package>com.heytap.cloud,1</package> <!---->
+<package>com.android.settings,1</package> <!--设置-->
+<package>com.oppo.launcher,1</package> <!--桌面-->
+<package>com.coloros.recents,1</package> <!--最近任务-->
+<package>com.android.browser,2</package> <!--OPPO浏览器-->
+<package>com.heytap.browser,2</package> <!---->
+<package>com.coloros.browser,2</package> <!--OPPO浏览器-->
+<package>com.oppo.usercenter,1</package> <!--用户中心-->
+<package>com.heytap.usercenter,1</package> <!---->
+<package>com.coloros.simsettings,1</package> <!--sim卡设置-->
+<package>com.coloros.wirelesssettings,1</package> <!--无线设置-->
+<package>com.android.wallpaper.livepicker,1</package> <!--壁纸设置-->
+<package>com.coloros.safecenter,1</package> <!--安全中心-->
+<package>com.coloros.oppoguardelf,1</package> <!--电池设置-->
+<package>com.oppo.otaui,1</package> <!--软件更新-->
+<package>com.coloros.cloud,1</package> <!--云服务-->
+<package>com.coloros.oppomultiapp,1</package> <!--应用分身-->
+<package>com.coloros.gamespace,1</package> <!--游戏空间-->
+<package>com.coloros.securepay,1</package> <!--安全支付-->
+<package>com.coloros.healthcheck,1</package> <!--健康检查-->
+<package>com.coloros.securityguard,1</package> <!--安全守护-->
+<package>com.android.contacts,1</package> <!--联系人-->
+<package>com.android.mms,1</package> <!--短信-->
+<package>com.android.systemui,1</package> <!--系统UI-->
+<package>com.oppo.quicksearchbox,1</package> <!--设置中搜索-->
+<package>com.android.settings.intelligence,1</package> <!---->
+<package>com.heytap.quicksearchbox,1</package> <!---->
+<package>com.coloros.providers.downloads.ui,1</package> <!--下载管理-->
+<package>com.coloros.operationManual,1</package> <!--使用说明-->
+<package>com.android.documentsui,1</package> <!--从存储设备安装证书-->
+<package>com.coloros.apprecover,1</package> <!--可卸载应用找回-->
+<package>com.coloros.notificationmanager,1</package> <!--通知管理-->
+<package>com.coloros.floatassistant,1</package> <!--悬浮球-->
+<package>com.coloros.findmyphone,1</package> <!--查找手机-->
+<package>com.coloros.securitypermission,1</package> <!--应用权限-->
+<package>com.coloros.colordirectservice,1</package> <!--breeno识屏-->
+<package>com.coloros.speechassist,1</package> <!--breeno语音-->
+<package>com.heytap.speechassist,1</package> <!---->
+<package>com.coloros.gesture,1</package> <!--手势体感-->
+<package>com.android.calendar,1</package> <!--日历-->
+<package>com.coloros.calendar,1</package> <!--日历，OS7-->
+<package>com.android.phone,1</package> <!--设置中电话-->
+<package>com.coloros.gamespaceui,1</package> <!--游戏空间-->
+<package>com.oppo.market,1</package> <!--应用商店-->
+<package>com.heytap.market,1</package> <!---->
+<package>com.android.stk,1</package> <!--sim卡应用-->
+<package>com.coloros.encryption,1</package> <!--私密保险箱-->
+<package>com.coloros.childrenspace,1</package> <!--儿童空间-->
+<package>com.coloros.blacklistapp,1</package> <!--伪基站拦截-->
+<package>com.oppo.sos,1</package> <!--SOS紧急呼叫-->
+<package>com.redteamobile.roaming,1</package> <!--国际上网-->
+<package>com.coloros.operationtips,1</package> <!--使用技巧-->
+<package>com.coloros.screenrecorder,1</package> <!--屏幕录制-->
+<package>com.android.permissioncontroller,1</package> <!--设置中权限管理-->
+<package>com.coloros.backuprestore,2</package> <!--手机搬家-->
+<package>com.tencent.mobileqq,1</package> <!--QQ-->
+<package>com.tencent.mm,1</package> <!--微信-->
+<package>com.oppo.community,1</package> <!--OPPO+-->
+<package>com.oppo.reader,1</package> <!--OPPO阅读-->
+<package>com.heytap.reader,1</package> <!---->
+<package>com.sina.weibo,1</package> <!--微博-->
+<package>com.ss.android.article.news,1</package> <!--今日头条-->
+<package>com.xingin.xhs,1</package> <!--小红书-->
+<package>com.hipu.yidian,1</package> <!--一点资讯-->
+<package>com.tencent.news,1</package> <!--腾讯新闻-->
+<package>com.ss.android.article.lite,1</package> <!--今日头条极速版-->
+<package>com.jifen.qukan,1</package> <!--趣头条-->
+<package>com.immomo.momo,1</package> <!--MOMO陌陌-->
+<package>com.baidu.tieba,1</package> <!--百度贴吧-->
+<package>com.oppo.book,1</package> <!--OPPO书城-->
+<package>com.heytap.book,1</package> <!---->
+<package>com.zhihu.android,1</package> <!--知乎-->
+<package>bubei.tingshu,1</package> <!--懒人听书-->
+<package>com.qzone,1</package> <!--QQ空间-->
+<package>com.ss.android.auto,1</package> <!--懂车帝-->
+<package>com.cootek.smartdialer,1</package> <!--触宝电话-->
+<package>com.tencent.weread,1</package> <!--微信读书-->
+<package>org.xianliao,1</package> <!--闲聊-->
+<package>com.ophone.reader.ui,1</package> <!--咪咕阅读-->
+<package>cn.weli.story,1</package> <!--微鲤-->
+<package>com.sina.news,1</package> <!--新浪新闻-->
+<package>com.tencent.news.lite,1</package> <!--腾讯新闻极速版-->
+<package>com.yiyou.ga,1</package> <!--TT语音-->
+<package>com.baidu.iknow,1</package> <!--百度知道-->
+<package>com.chaozh.iReaderFree,1</package> <!--掌阅-->
+<package>io.liuliu.music,1</package> <!--音遇-->
+<package>com.zhenai.android,1</package> <!--珍爱网-->
+<package>com.ifreetalk.ftalk,1</package> <!--派派-->
+<package>com.ifeng.news2,1</package> <!--凤凰新闻-->
+<package>cn.neoclub.uki,1</package> <!--Uki-->
+<package>com.douban.frodo,1</package> <!--豆瓣-->
+<package>com.netease.newsreader.activity,1</package> <!--网易新闻-->
+<package>com.baidu.yuedu,1</package> <!--百度阅读-->
+<package>com.skyplatanus.crucio,1</package> <!--快点-->
+<package>com.yr.huajian,1</package> <!--花间-->
+<package>com.planet.light2345,1</package> <!--星球联盟-->
+<package>com.sogou.novel,1</package> <!--搜狗阅读-->
+<package>com.coohua.xinwenzhuan,1</package> <!--淘新闻-->
+<package>com.immomo.mread,1</package> <!--漫读小说-->
+<package>com.wodi.who,1</package> <!--玩吧-->
+<package>com.cashtoutiao,1</package> <!--惠头条-->
+<package>com.sina.weibolite,1</package> <!--微博极速版-->
+<package>com.qingshu520.chat,1</package> <!--聊客-->
+<package>com.qidian.QDReader,1</package> <!--起点读书-->
+<package>com.aides.brother.brotheraides,1</package> <!--吹牛-->
+<package>com.wbxm.icartoon,1</package> <!--看漫画-->
+<package>com.xiaoenai.app,1</package> <!--小恩爱-->
+<package>com.naver.linewebtoon.cn,1</package> <!--咚漫-->
+<package>com.weibo.comic,1</package> <!--微博动漫-->
+<package>com.tencent.gamehelper.pg,1</package> <!--掌上和平精英-->
+<package>com.hzsj.dsjy,1</package> <!--单身交友-->
+<package>com.kuihua.wxsk,1</package> <!--微信双开-->
+<package>com.welove520.qqsweet,1</package> <!--情侣空间-->
+<package>com.yunzhan.liaobei,1</package> <!--聊呗极速版-->
+<package>com.esbook.reade,1</package> <!--宜搜小说-->
+<package>com.tadu.read,2</package> <!--塔读小说-->
+<package>com.netease.gl,1</package> <!--网易大神-->
+<package>com.tencent.tribe,1</package> <!--兴趣部落-->
+<package>com.hongxiu.app,1</package> <!--红袖读书-->
+<package>com.comic.manhuatai,1</package> <!--漫画台-->
+<package>com.kuihua.wxfs1,1</package> <!--微信分身-->
+<package>com.wzf.fan,1</package> <!--我是谜-->
+<package>com.tencent.qqlite,1</package> <!--QQ轻聊版-->
+<package>com.lofter.android,1</package> <!--LOFTER-->
+<package>com.mosheng,1</package> <!--陌声交友聊天-->
+<package>im.chaoxin,1</package> <!--潮信-->
+<package>com.luojilab.player,1</package> <!--得到-->
+<package>com.liao.love,1</package> <!--爱情银行-->
+<package>com.taobao.taobao,1</package> <!--手机淘宝-->
+<package>com.tencent.karaoke,1</package> <!--全民K歌-->
+<package>com.kugou.android,1</package> <!--酷狗音乐-->
+<package>com.eg.android.AlipayGphone,1</package> <!--支付宝-->
+<package>com.xunmeng.pinduoduo,1</package> <!--拼多多-->
+<package>cn.wps.moffice_eng,1</package> <!--WPS Office-->
+<package>com.achievo.vipshop,1</package> <!--唯品会-->
+<package>com.jingdong.app.mall,1</package> <!--京东-->
+<package>com.netease.mail,1</package> <!--网易邮箱大师-->
+<package>com.oppo.store,1</package> <!--OPPO 商城-->
+<package>com.tencent.android.qqdownloader,1</package> <!--么么哒购-->
+<package>com.tencent.androidqqmail,1</package> <!--QQ邮箱-->
+<package>com.taobao.idlefish,1</package> <!--闲鱼-->
+<package>com.suning.mobile.ebuy,1</package> <!--苏宁易购-->
+<package>com.alibaba.android.rimet,1</package> <!--钉钉-->
+<package>com.tmall.wireless,1</package> <!--手机天猫-->
+<package>cn.cj.pe,1</package> <!--139邮箱-->
+<package>com.mogujie,1</package> <!--蘑菇街-->
+<package>com.chinamobile.mcloud,1</package> <!--蘑菇街-->
+<package>com.alibaba.wireless,1</package> <!--阿里巴巴-->
+<package>com.mengtuiapp.mall,1</package> <!--萌推-->
+<package>com.wuba.zhuanzhuan,1</package> <!--转转-->
+<package>com.cainiao.wireless,1</package> <!--菜鸟裹裹-->
+<package>com.tencent.wework,1</package> <!--企业微信-->
+<package>com.taobao.etao,1</package> <!--淘-->
+<package>com.shizhuang.duapp,1</package> <!--毒-->
+<package>com.husor.beidian,1</package> <!--贝店-->
+<package>com.jf.lkrj,1</package> <!--花生日记-->
+<package>com.baidu.searchbox,1</package> <!--百度-->
+<package>org.mozilla.firefox,1</package> <!--火狐浏览器-->
+<package>com.UCMobile,1</package> <!--UC浏览器-->
+<package>com.tencent.mtt,1</package> <!--QQ浏览器-->
+<package>com.baidu.searchbox.lite,1</package> <!--百度极速版-->
+<package>com.tencent.qqmusic,1</package> <!--QQ音乐-->
+<package>com.opera.browser,1</package> <!--opera浏览器-->
+<package>cn.xuexi.android,1</package> <!--学习强国-->
+<package>com.google.android.keep,1</package> <!---->
+<package>com.whatsapp,0</package> <!---->
+<package>com.instagram.android,1</package> <!--instagram-->
+<package>com.snapchat.android,1</package> <!--snapchat-->
+<package>com.facebook.orca,1</package> <!--facebook.orca-->
+<package>com.eterno,1</package> <!--Dailyhunt-->
+<package>com.cardfeed.video_public,1</package> <!--public-->
+<package>in.AajTak.headlines,1</package> <!--Aaj Tak-->
+<package>com.amazon.kindle,1</package> <!--kindle-->
+<package>com.newanybooks,1</package> <!--AnyBooks-->
+<package>com.google.android.apps.books,1</package> <!--Google Play Books-->
+<package>com.pratilipi.mobile.android,1</package> <!---->
+<package>com.area120.studybuddy.sagaflutter,1</package> <!---->
+<package>club.fromfactory,1</package> <!---->
+<package>com.flipkart.android,1</package> <!---->
+<package>in.amazon.mShop.android.shopping,1</package> <!---->
+<package>net.one97.paytm,0</package> <!---->
+<package>com.olx.southasia,1</package> <!---->
+<package>com.waze,1</package> <!---->
+<package>com.sygic.aura,1</package> <!---->
+<package>com.olacabs.customer,1</package> <!---->
+<package>cz.aponia.bor3,1</package> <!---->
+<package>ru.yandex.taxi,1</package> <!---->
+<package>com.ksmobile.cb,1</package> <!---->
+<package>com.UCMobile.intl,1</package> <!---->
+<package>mark.via.gp,1</package> <!---->
+<package>com.jakarta.baca.lite,1</package> <!---->
+<package>id.co.babe,1</package> <!---->
+<package>com.uc.iflow,1</package> <!---->
+<package>com.google.android.apps.magazines,1</package> <!---->
+<package>wp.wattpad,1</package> <!---->
+<package>com.lovenovel.read,1</package> <!---->
+<package>com.xiaoshuo.webread,1</package> <!---->
+<package>com.aynovel.idxs,1</package> <!---->
+<package>com.shopee.id,1</package> <!---->
+<package>com.tokopedia.sellerapp,1</package> <!---->
+<package>com.lazada.android,1</package> <!---->
+<package>com.bukalapak.android,1</package> <!---->
+<package>io.silvrr.installment,1</package> <!---->
+<package>sinet.startup.inDriver,1</package> <!---->
+<package>com.eztech.gps.maps,1</package> <!---->
+<package>com.gpsroutefinder.gps.route.finder.map.navigation.directions.driving.location,1</package> <!---->
+<package>com.entertaininglogixapps.gps.navigation.direction.find.route.map.guide,1</package> <!---->
+<package>com.grabtaxi.passenger,1</package> <!---->
+<package>com.bankmandiri.mandirionline,1</package> <!---->
+<package>io.wifimap.wifimap,1</package> <!---->
+<package>com.android.incallui,1</package> <!---->
+<package>com.google.android.googlequicksearchbox,1</package> <!---->
+<package>com.truecaller,0</package> <!---->
+<package>com.android.vending,1</package> <!---->
+<package>com.google.android.packageinstaller,1</package> <!---->
+<package>com.android.calculator2,1</package> <!---->
+<package>com.oppo.music,1</package> <!---->
+<package>com.android.server.telecom,1</package> <!---->
+<package>com.google.android.gms,1</package> <!---->
+<package>com.nemo.vidmate,1</package> <!---->
+<package>com.google.android.gm,1</package> <!---->
+<package>app.buzz.share,1</package> <!---->
+<package>com.google.android.apps.docs,1</package> <!---->
+<package>com.google.android.calendar,1</package> <!---->
+<package>com.facebook.lite,1</package> <!---->
+<package>in.startv.hotstar,0</package> <!---->
+<package>com.lenovo.anyshare.gps,0</package> <!---->
+<package>com.google.android.apps.nbu.paisa.user,1</package> <!---->
+<package>com.android.quicksearchbox,1</package> <!---->
+<package>com.phonepe.app,1</package> <!---->
+<package>com.jio.myjio,1</package> <!---->
+<package>com.oppo.ota,1</package> <!---->
+<package>in.mohalla.sharechat,0</package> <!---->
+<package>com.imo.android.imoim,0</package> <!---->
+<package>com.jio.media.jiobeats,0</package> <!---->
+<package>com.whatsapp.w4b,1</package> <!---->
+<package>com.nearme.browser,1</package> <!---->
+<package>cn.xender,1</package> <!---->
+<package>com.whereismytrain.android,1</package> <!---->
+<package>com.coloros.calculator,1</package> <!---->
+<package>com.coloros.photoeffects,1</package> <!---->
+<package>com.bsbportal.music,1</package> <!---->
+<package>org.telegram.messenger,1</package> <!---->
+<package>com.cricbuzz.android,1</package> <!---->
+<package>com.gaana,0</package> <!---->
+<package>com.coloros.assistantscreen,1</package> <!---->
+<package>com.miniclip.carrom,1</package> <!---->
+<package>com.google.android.inputmethod.latin,1</package> <!---->
+<package>com.whatsapp:999,1</package> <!---->
+<package>com.domobile.applock,1</package> <!---->
+<package>com.myairtelapp,1</package> <!---->
+<package>com.google.android.apps.tachyon,1</package> <!---->
+<package>com.yy.hiyo,1</package> <!---->
+<package>com.zhiliaoapp.musically.go,1</package> <!---->
+<package>com.facebook.mlite,1</package> <!---->
+<package>com.tv.v18.viola,1</package> <!---->
+<package>com.threestar.gallery,1</package> <!---->
+<package>com.til.timesnews,1</package> <!---->
+<package>com.google.android.apps.translate,1</package> <!---->
+<package>com.android.bluetooth,1</package> <!---->
+<package>com.emoji.keyboard.touchpal,1</package> <!---->
+<package>com.coloros.musiclink,1</package> <!---->
+<package>com.sonyliv,1</package> <!---->
+<package>com.intsig.camscanner,1</package> <!---->
+<package>com.google.android.play.games,0</package> <!---->
+<package>com.application.zomato,1</package> <!---->
+<package>in.swiggy.android,1</package> <!---->
+<package>com.myntra.android,1</package> <!---->
+<package>com.ludashi.dualspace,1</package> <!---->
+<package>com.uc.browser.en,1</package> <!---->
+<package>com.uc.vmlite,1</package> <!---->
+<package>com.daemon.shelper,1</package> <!---->
+<package>photography.blackgallery.android,1</package> <!---->
+<package>cris.org.in.prs.ima,1</package> <!---->
+<package>com.ss.android.ugc.boomlite,1</package> <!---->
+<package>com.opera.mini.native,1</package> <!---->
+<package>com.snapdeal.main,1</package> <!---->
+<package>com.outfit7.mytalkingtom2,1</package> <!---->
+<package>com.snaptube.premium,1</package> <!---->
+<package>com.roposo.android,1</package> <!---->
+<package>com.water.balls,1</package> <!---->
+<package>com.lbe.parallel.intl,1</package> <!---->
+<package>com.csam.icici.bank.imobile,1</package> <!---->
+<package>com.app.dream11Pro,1</package> <!---->
+<package>com.youdao.hindict,1</package> <!---->
+<package>com.netqin.ps,1</package> <!---->
+<package>com.pinterest,1</package> <!---->
+<package>com.adobe.reader,1</package> <!---->
+<package>com.bt.bms,1</package> <!---->
+<package>com.sbi.lotusintouch,1</package> <!---->
+<package>com.android.email,1</package> <!---->
+<package>com.oppo.operationManual,1</package> <!---->
+<package>com.realmestore.app,1</package> <!---->
+<package>com.ubercab,1</package> <!---->
+<package>com.gbwhatsapp,1</package> <!---->
+<package>com.mobikwik_new.bajajfinserv,1</package> <!---->
+<package>com.axis.mobile,1</package> <!---->
+<package>com.android.fmradio,1</package> <!---->
+<package>tv.accedo.airtel.wynk,0</package> <!---->
+<package>com.realmecomm.app,1</package> <!---->
+<package>com.lbe.parallel.intl.arm64,1</package> <!---->
+<package>com.cyberlink.youperfect,1</package> <!---->
+<package>com.clusterdev.malayalamkeyboard,1</package> <!---->
+<package>com.mobond.mindicator,1</package> <!---->
+<package>in.org.npci.upiapp,1</package> <!---->
+<package>com.mobile.indiapp,1</package> <!---->
+<package>com.android.packageinstaller,1</package> <!---->
+<package>com.sbi.SBIFreedomPlus,1</package> <!---->
+<package>com.caf.fmradio,1</package> <!---->
+<package>com.coloros.ocrscanner,1</package> <!---->
+<package>com.downlood.sav.whmedia,1</package> <!---->
+<package>com.msf.kbank.mobile,1</package> <!---->
+<package>com.spotify.music,1</package> <!---->
+<package>com.appstar.callrecorder,1</package> <!---->
+<package>com.qidian.Int.reader,1</package> <!---->
+<package>com.mediatek.omacp,1</package> <!---->
+<package>com.netflix.mediaclient,1</package> <!---->
+<package>com.slippy.linerusher,1</package> <!---->
+<package>com.coloros.activation,1</package> <!---->
+<package>com.kwai.global.video.social.kwaigo,1</package> <!---->
+<package>com.imo.android.imoimbeta,1</package> <!---->
+<package>com.opera.app.news,1</package> <!---->
+<package>com.appsomniacs.da2,1</package> <!--Mini Militia - Doodle Army 2-->
+<package>com.yy.biu,1</package> <!---->
+<package>com.jio.media.ondemand,1</package> <!---->
+<package>com.eyecon.global,1</package> <!---->
+<package>com.microsoft.office.outlook,1</package> <!---->
+<package>com.coloros.newsimdetect,1</package> <!---->
+<package>com.activision.callofduty.shooter,1</package> <!---->
+<package>com.loan.cash.credit.easy.dhan.quick.udhaar.lend.game.jaldi.pais,1</package> <!---->
+<package>com.bingo.livetalk,1</package> <!---->
+<package>com.starmakerinteractive.starmaker,1</package> <!---->
+<package>com.nemo.starhalo,1</package> <!---->
+<package>com.coloros.fingerprint,1</package> <!---->
+<package>in.okcredit.merchant,1</package> <!---->
+<package>com.hike.chat.stickers,1</package> <!---->
+<package>com.ril.rposcentral,1</package> <!---->
+<package>com.doodle.turboracing3d,1</package> <!---->
+<package>sun.way2sms.hyd.com,1</package> <!---->
+<package>free.vpn.unblock.proxy.turbovpn,1</package> <!---->
+<package>com.fogg.photovideomaker,1</package> <!---->
+<package>com.airtel.agilelabs.retailerapp,1</package> <!---->
+<package>com.match3blaster.DropStackBallFall,1</package> <!---->
+<package>com.oyo.consumer,1</package> <!---->
+<package>com.yahoo.mobile.client.android.mail,1</package> <!---->
+<package>com.android.vpndialogs,1</package> <!---->
+<package>com.awt.kalnirnay,1</package> <!---->
+<package>com.snapwork.hdfc,1</package> <!---->
+<package>com.google.android.apps.wellbeing,1</package> <!---->
+<package>com.mventus.selfcare.activity,1</package> <!---->
+<package>com.colors.forgotpasswordexp,1</package> <!---->
+<package>com.android.printspooler,1</package> <!---->
+<package>com.musicplayer.player.mp3player.white,1</package> <!---->
+<package>com.linkedin.android,1</package> <!---->
+<package>com.divum.MoneyControl,1</package> <!---->
+<package>com.makemytrip,1</package> <!---->
+<package>com.ubercab.eats,1</package> <!---->
+<package>com.peake.hindicalender,1</package> <!---->
+<package>in.co.bankofbaroda.mpassbook,1</package> <!---->
+<package>com.fmwhatsapp,1</package> <!---->
+<package>com.coloros.bootreg,1</package> <!---->
+<package>net.zedge.android,1</package> <!---->
+<package>com.bankofbaroda.mconnect,1</package> <!---->
+<package>com.microsoft.office.word,1</package> <!---->
+<package>com.rocket.tools.clean.antivirus.master,1</package> <!---->
+<package>com.knockdown.bottle.game,1</package> <!---->
+<package>naukriApp.appModules.login,1</package> <!---->
+<package>io.voodoo.crowdcity,1</package> <!---->
+<package>com.nic.mparivahan,1</package> <!---->
+<package>com.goibibo,1</package> <!---->
+<package>com.yowhatsapp,1</package> <!---->
+<package>com.leo.appmaster,1</package> <!---->
+<package>com.shopping.limeroad,1</package> <!---->
+<package>com.ideacellular.myidea,1</package> <!---->
+<package>com.meesho.supply,1</package> <!---->
+<package>com.vaibhavkalpe.android.khatabook,1</package> <!---->
+<package>com.google.android.apps.inputmethod.hindi,1</package> <!---->
+<package>com.paytm.business,1</package> <!---->
+<package>com.vpn.basiccalculator,1</package> <!---->
+<package>com.google.android.apps.nbu.files,1</package> <!---->
+<package>com.ge.capital.konysbiapp,1</package> <!---->
+<package>devian.tubemate.v3,1</package> <!---->
+<package>com.winit.starnews.hin,1</package> <!---->
+<package>game.bubble.shooter.dragon.pop,1</package> <!---->
+<package>com.fsn.nykaa,1</package> <!---->
+<package>com.ryzmedia.tatasky,1</package> <!---->
+<package>com.atomic.apps.ringtone.cutter,1</package> <!---->
+<package>com.silevel.mountainclimbstunt,1</package> <!---->
+<package>in.cricketexchange.app.cricketexchange,1</package> <!---->
+<package>com.blacklightsw.ludo,1</package> <!---->
+<package>com.emoji.keyboard.touchpal.oppo,1</package> <!---->
+<package>com.rapido.passenger,1</package> <!---->
+<package>calc.gallery.lock,1</package> <!---->
+<package>vault.gallery.lock,1</package> <!---->
+<package>im.thebot.messenger,1</package> <!---->
+<package>com.hyperspeed.rocket.applock.free,1</package> <!---->
+<package>com.teslacoilsw.launcher,1</package> <!---->
+<package>shooter.two.purple,1</package> <!---->
+<package>com.igoldtech.streetchaser,1</package> <!---->
+<package>sg.bigo.ludolegend,1</package> <!---->
+<package>jp.naver.line.android,1</package> <!---->
+<package>com.zing.zalo,1</package> <!---->
+<package>com.zing.mp3,1</package> <!---->
+<package>com.gojek.app,1</package> <!---->
+<package>com.tencent.ibg.joox,1</package> <!---->
+<package>com.telkomsel.telkomselcm,1</package> <!---->
+<package>com.bca,1</package> <!---->
+<package>com.michatapp.im,1</package> <!---->
+<package>com.kasikorn.retail.mbanking.wap,1</package> <!---->
+<package>com.garena.game.kgvn,1</package> <!---->
+<package>com.shopee.ph,1</package> <!---->
+<package>com.xb.topnews,1</package> <!---->
+<package>com.google.android.music,1</package> <!---->
+<package>com.halo.wifikey.wifilocating,1</package> <!---->
+<package>com.epi,1</package> <!---->
+<package>com.scb.phone,1</package> <!---->
+<package>com.naver.linewebtoon,1</package> <!---->
+<package>com.tokopedia.tkpd,1</package> <!---->
+<package>com.garena.game.kgth,1</package> <!---->
+<package>com.shopee.th,1</package> <!---->
+<package>com.shopee.my,1</package> <!---->
+<package>com.andi.alquran.id,1</package> <!---->
+<package>com.traveloka.android,1</package> <!---->
+<package>ovo.id,1</package> <!---->
+<package>ktbcs.netbank,1</package> <!---->
+<package>com.linkit.bimatri,1</package> <!---->
+<package>com.shopee.vn,1</package> <!---->
+<package>com.pure.indosat.care,1</package> <!---->
+<package>com.grabtaxi.driver2,1</package> <!---->
+<package>com.tencent.wesing,1</package> <!---->
+<package>my.com.maxis.hotlink.production,1</package> <!---->
+<package>id.dana,1</package> <!---->
+<package>com.merriamwebster,1</package> <!---->
+<package>com.bitsmedia.android.muslimpro,1</package> <!---->
+<package>bri.delivery.brimobile,1</package> <!---->
+<package>com.msd.JTClient,1</package> <!---->
+<package>com.shopee.tw,1</package> <!---->
+<package>th.co.truemoney.wallet,1</package> <!---->
+<package>com.zhangyue.read,1</package> <!---->
+<package>iflix.play,1</package> <!---->
+<package>com.bbl.mobilebanking,1</package> <!---->
+<package>gogolook.callgogolook2,1</package> <!---->
+<package>com.app.tokobagus.betterb,1</package> <!---->
+<package>com.neptune.domino,1</package> <!---->
+<package>com.vng.pubgmobile,1</package> <!---->
+<package>src.com.bni,1</package> <!---->
+<package>com.mobilife.gsb.mymo,1</package> <!---->
+<package>my.com.maybank2u.m2umobile,1</package> <!---->
+<package>com.smartfren,1</package> <!---->
+<package>com.noxgroup.app.cleaner,1</package> <!---->
+<package>com.murad.waktusolat,1</package> <!---->
+<package>com.globe.gcash.android,1</package> <!---->
+<package>com.ea.game.pvzfree_row,1</package> <!---->
+<package>com.jb.emoji.gokeyboard,1</package> <!---->
+<package>panda.keyboard.emoji.theme,1</package> <!---->
+<package>app.zenly.locator,1</package> <!---->
+<package>com.gojek.driver.bike,1</package> <!---->
+<package>com.global.foodpanda.android,1</package> <!---->
+<package>ht.nct,1</package> <!---->
+<package>mobi.mangatoon.comics.aphone,1</package> <!---->
+<package>asuk.com.android.app,1</package> <!---->
+<package>com.viettel.mocha.app,1</package> <!---->
+<package>com.vova.android,1</package> <!---->
+<package>com.dridev.kamusku,1</package> <!---->
+<package>com.peoplefun.wordcross,1</package> <!---->
+<package>sg.cocofun,1</package> <!---->
+<package>com.digi.portal.mobdev.android,1</package> <!---->
+<package>id.tix.android,1</package> <!---->
+<package>gsn.game.zingplaynew1,1</package> <!---->
+<package>com.amanotes.beathopper,1</package> <!---->
+<package>com.vnpay.Agribank3g,1</package> <!---->
+<package>free.vpn.unblock.proxy.vpnmaster,1</package> <!---->
+<package>mbinc12.mb32,1</package> <!---->
+<package>com.mservice.momotransfer,1</package> <!---->
+<package>com.cloudmosa.puffinFree,1</package> <!---->
+<package>com.forshared.files,1</package> <!---->
+<package>org.detikcom.rss,1</package> <!---->
+<package>com.ais.mimo.eservice,1</package> <!---->
+<package>com.tongitsgo.play,1</package> <!---->
+<package>com.udicorn.proxybrowser.unblockwebsites,1</package> <!---->
+<package>com.vng.inputmethod.labankey,1</package> <!---->
+<package>gsn.game.zingplaynew,1</package> <!---->
+<package>com.shopback.app,1</package> <!---->
+<package>com.celcom.mycelcom,1</package> <!---->
+<package>com.vidio.android,1</package> <!---->
+<package>com.playmini.miniworld,1</package> <!---->
+<package>id.drakor.plus,1</package> <!---->
+<package>com.tdcm.trueidapp,1</package> <!---->
+<package>com.game.fallingpuzzle,1</package> <!---->
+<package>com.ovelin.guitartuna,1</package> <!---->
+<package>com.badoo.mobile,1</package> <!---->
+<package>com.telkom.mwallet,1</package> <!---->
+<package>com.viu.phone,1</package> <!---->
+<package>com.apps.MyXL,1</package> <!---->
+<package>com.sendo,1</package> <!---->
+<package>com.axis.net,1</package> <!---->
+<package>com.canva.editor,1</package> <!---->
+<package>com.TMBTOUCH.PRODUCTION,1</package> <!---->
+<package>com.alfamart.alfagift,1</package> <!---->
+<package>com.mudah.my,1</package> <!---->
+<package>com.bpjstku,1</package> <!---->
+<package>com.dictionary.tl,1</package> <!---->
+<package>com.benqu.wuta,1</package> <!---->
+<package>app.dupavideo.wishes,1</package> <!---->
+<package>com.bluesoft.clonappmessenger,1</package> <!---->
+<package>blibli.mobile.commerce,1</package> <!---->
+<package>com.garena.gaslite,1</package> <!---->
+<package>com.maxgames.stickwarlegacy,1</package> <!---->
+<package>com.meluapp.tekatekisilangpintar,1</package> <!---->
+<package>com.muslim.android,1</package> <!---->
+<package>com.ookbee.joyapp.android,1</package> <!---->
+<package>com.telkomsel.roli,1</package> <!---->
+<package>com.dummy.poker,1</package> <!---->
+<package>com.tiket.gits,1</package> <!---->
+<package>com.twincorp.bancaonline,1</package> <!---->
+<package>com.baohay24h.app,1</package> <!---->
+<package>com.fugo.wow,1</package> <!---->
+<package>com.vttm.vietteldiscovery,1</package> <!---->
+<package>com.jamendoandoutly.mainpakage,1</package> <!---->
+<package>com.cimbmalaysia,1</package> <!---->
+<package>com.goviet.app,1</package> <!---->
+<package>vn.tiki.app.tikiandroid,1</package> <!---->
+<package>com.mlive.mliveapp,1</package> <!---->
+<package>com.vmb.lichvannien.new2018,1</package> <!---->
+<package>com.philseven.loyalty,1</package> <!---->
+<package>com.jakarta.baca,1</package> <!---->
+<package>com.moreshare.chord.guitar.full.offline,1</package> <!---->
+<package>com.coccoc.trinhduyet,1</package> <!---->
+<package>com.amanotes.pamadancingroad,1</package> <!---->
+<package>gsn.game.zingplaytala,1</package> <!---->
+<package>com.spacegame.homedesign,1</package> <!---->
+<package>com.kreditpintar,1</package> <!---->
+<package>com.habby.archero,1</package> <!---->
+<package>com.finaccel.android,1</package> <!---->
+<package>sg.omi,1</package> <!---->
+<package>com.PlayMax.playergames,1</package> <!---->
+<package>lds.cinema21,1</package> <!---->
+<package>com.gojek.resto,1</package> <!---->
+<package>com.microblink.photomath,1</package> <!---->
+<package>org.iggymedia.periodtracker,1</package> <!---->
+<package>com.fastacash.tcb,1</package> <!---->
+<package>com.ea.game.pvz2_row,1</package> <!---->
+<package>com.zingplay.tongits,1</package> <!---->
+<package>br.com.rodrigokolb.realdrum,1</package> <!---->
+<package>com.VCB,1</package> <!---->
+<package>com.bandoy.tongitsXtreme,1</package> <!---->
+<package>vn.vtv.vtvgo,1</package> <!---->
+<package>com.truelife.mobile.android.trueiservice,1</package> <!---->
+<package>com.tickledmedia.ParentTown,1</package> <!---->
+<package>com.Neurononfire.SupremeDuelist,1</package> <!---->
+<package>org.sabda.alkitab,1</package> <!---->
+<package>com.biglime.cookingmadness,1</package> <!---->
+<package>jd.cdyjy.overseas.market.indonesia,1</package> <!---->
+<package>com.michatapp.im.lite,1</package> <!---->
+<package>org.scr888.scr888,1</package> <!---->
+<package>yuku.alkitab,1</package> <!---->
+<package>com.garena.game.kgtw,1</package> <!---->
+<package>instake.repost.instagramphotodownloader.instagramvideodownloader,1</package> <!---->
+<package>th.co.crie.tron2.android,1</package> <!---->
+<package>com.psiphon3.subscription,1</package> <!---->
+<package>com.paymaya,1</package> <!---->
+<package>com.fplay.activity,1</package> <!---->
+<package>com.kwai.mercury,1</package> <!---->
+<package>tv.hooq.android,1</package> <!---->
+<package>com.vietinbank.ipay,1</package> <!---->
+<package>com.forshared,1</package> <!---->
+<package>air.com.lunime.gachalife,1</package> <!---->
+<package>com.cooyostudio.marble.blast,1</package> <!---->
+<package>com.kai.kaiticketing,1</package> <!---->
+<package>com.vn.dic.e.v.ui,1</package> <!---->
+<package>org.hola,1</package> <!---->
+<package>com.codetribelabs.TongitsWars,1</package> <!---->
+<package>com.icarusgame.onetklasik,1</package> <!---->
+<package>com.omesti.myumobile,1</package> <!---->
+<package>com.zalora.android,1</package> <!---->
+<package>vn.weplay.lichvannien,1</package> <!---->
+<package>com.dayakomputer.Kalender,1</package> <!---->
+<package>com.wildspike.wormszone,1</package> <!---->
+<package>com.tencent.godgame,1</package> <!---->
+<package>com.linkdeskstudio.popcat,1</package> <!---->
+<package>com.akapps.statussaver,1</package> <!---->
+<package>com.martinvillar.android.quranindonesia,1</package> <!---->
+<package>pikachu.classic.onet.connect.pikachu2019,1</package> <!---->
+<package>app.bpjs.mobile,1</package> <!---->
+<package>com.linecorp.LGBB2,1</package> <!---->
+<package>com.ction.playergames,1</package> <!---->
+<package>com.emagssob.tienlen,1</package> <!---->
+<package>com.vnpay.bidv,1</package> <!---->
+<package>com.facebook.pages.app,1</package> <!---->
+<package>com.picmax.wemoji,1</package> <!---->
+<package>com.mind.quiz.brain.out,1</package> <!---->
+<package>com.angkas.passenger,1</package> <!---->
+<package>com.agoda.mobile.consumer,1</package> <!---->
+<package>com.avcrbt.funimate,1</package> <!---->
+<package>com.shinycore.picsaypro,1</package> <!---->
+<package>com.sparkslab.dcardreader,1</package> <!---->
+<package>com.smile.gifmaker,2</package> <!--快手-->
+<package>com.ss.android.ugc.aweme,2</package> <!--抖音-->
+<package>com.tencent.weishi,2</package> <!--微视-->
+<package>com.meitu.meipaimv,2</package> <!--美拍-->
+<package>com.ss.android.ugc.live,2</package> <!--抖音火山版-->
+<package>com.ss.android.article.video,2</package> <!--西瓜视频-->
+<package>com.baidu.haokan,2</package> <!--好看视频-->
+<package>com.duowan.kiwi,2</package> <!--虎牙直播-->
+<package>air.tv.douyu.android,2</package> <!--斗鱼直播-->
+<package>com.duowan.mobile,2</package> <!--YY-->
+<package>com.youku.phone,2</package> <!--优酷视频-->
+<package>com.google.android.apps.youtube.mango,2</package> <!--YouTube GO-->
+<package>com.mxtech.videoplayer.ad,2</package> <!--MX Player-->
+<package>com.lazygeniouz.saveit,2</package> <!---->
+<package>org.videolan.vlc,2</package> <!---->
+<package>com.zhiliaoapp.musically,2</package> <!--TikTok-->
+<package>com.dev.hd.live.channel,2</package> <!--外国电视(HD Tv Live)-->
+<package>com.sec.android.gallery3d,2</package> <!--Samsung Gallery-->
+<package>com.motorola.camera,2</package> <!--Motorola Camera-->
+<package>com.motorola.cameraone,2</package> <!--Moto Camera-->
+<package>com.perfectcam.photoeditor,2</package> <!--YouCam Perfect-->
+<package>com.alensw.PicFolder,2</package> <!--QuickPic-->
+<package>com.niksoftware.snapseed,2</package> <!--Snapseed-->
+<package>com.linecorp.b612.android,2</package> <!--B612-->
+<package>com.commsource.beautyplus,2</package> <!--BeautyPlus-->
+<package>com.google.android.GoogleCamera,2</package> <!--Google Camera-->
+<package>com.venticake.retrica,2</package> <!--Retrica-->
+<package>com.camerasideas.instashot,2</package> <!--Video Editor & Video Maker-->
+<package>com.cam001.selfie,2</package> <!--Sweet Selfie Camera:Beauty cam-->
+<package>com.asus.camera,2</package> <!--ASUS PixelMaster Camera-->
+<package>com.joeware.android.gpulumera,2</package> <!--Candy Camera-->
+<package>com.adobe.psmobile,2</package> <!--Adobe Photoshop Express:Photo Editor Collage Maker-->
+<package>net.sourceforge.opencamera,2</package> <!--Open Camera-->
+<package>com.lyrebirdstudio.montagenscolagem,2</package> <!--Photo Editor Collage Maker Pro: Filters & -->
+<package>com.htc.camera2,2</package> <!--HTC Camera　-->
+<package>com.instagram.boomerang,2</package> <!--Boomerang from Instagram-->
+<package>io.yoba.storysaverforinsta,2</package> <!--Story Saver App — Stories & Highlights -->
+<package>com.PinkbirdStudio.SelfieCam_InstaBeauty,2</package> <!--InstaBeauty-->
+<package>com.iudesk.android.photo.editor,2</package> <!--Photo Editor-->
+<package>com.makeup.plus.youcam.camera,2</package> <!--MakeupPlus-->
+<package>com.kii.safe,2</package> <!--Keepsafe Photo Vault: Hide Private Photos & -->
+<package>photocollage.photoeditor.collagemaker,2</package> <!--Collage Maker-->
+<package>com.imaginstudio.imagetools.pixellab,2</package> <!--PixelLab-->
+<package>com.ufotosoft.justshot,2</package> <!--Sweet Face Camera-->
+<package>jp.co.canon.ic.cameraconnect,2</package> <!--Canon Camera Connect-->
+<package>com.magix.camera_mx,2</package> <!--Camera MX-->
+<package>com.vsco.cam,2</package> <!--VSCO-->
+<package>io.faceapp,2</package> <!--FaceApp-->
+<package>kr.co.manhole.hujicam,2</package> <!--Huji Cam-->
+<package>com.google.android.apps.photosgo,2</package> <!--Gallery Go by Google Photos-->
+<package>photo.editor.photoeditor.photoeditorpro,2</package> <!--Photo Editor Pro-->
+<package>com.newbiz.mvmaster,2</package> <!--MV Master-->
+<package>com.lightricks.pixaloop,2</package> <!--Enlight Pixaloop-->
+<package>com.xprodev.cutcam,2</package> <!--Cut Cut-->
+<package>com.motorola.MotGallery2,2</package> <!--Motorola Gallery-->
+<package>com.utorrent.client,2</package> <!--?Torrent?-->
+<package>com.google.android.videos,2</package> <!--Google Play Movies & TV-->
+<package>com.mxtech.videoplayer.pro,2</package> <!--MX Player Pro-->
+<package>com.radio.fmradio,2</package> <!--FM Radio-->
+<package>com.quvideo.xiaoying,2</package> <!--VivaVideo-->
+<package>video.like,2</package> <!--Likee-->
+<package>com.mxtech.videoplayer.beta,2</package> <!--MX Player Beta-->
+<package>com.bittorrent.client,2</package> <!--BitTorrent?-->
+<package>video.player.videoplayer,2</package> <!--Video Player All Format-->
+<package>com.nexstreaming.app.kinemasterfree,2</package> <!--KineMaster-->
+<package>com.htc.video,2</package> <!--HTC Service—Video Player-->
+<package>com.samsung.android.videolist,2</package> <!--Samsung Video Library-->
+<package>com.tdo.showbox,2</package> <!--ShowBox-->
+<package>org.videolan.vlc.betav7neon,2</package> <!--VLC for Android beta-->
+<package>com.popularapp.videodownloaderforinstagram,2</package> <!--Video Downloader-->
+<package>com.google.android.apps.youtube.creator,2</package> <!--YouTube Studio-->
+<package>com.uc.vmate,2</package> <!--VMate-->
+<package>com.naing.mp3converter,2</package> <!--Video to MP3 Converter-->
+<package>com.xvideostudio.videoeditor,2</package> <!--VideoShow Video Editor-->
+<package>secret.hide.calculator,2</package> <!--Private Photo-->
+<package>com.huawei.himovie,2</package> <!--HUAWEI Video Player-->
+<package>all.video.downloader.allvideodownloader,2</package> <!--All downloader 2019-->
+<package>com.mcu.iVMS,2</package> <!--iVMS-->
+<package>net.seesaa.sweet_baked_pie.AB_repeater,2</package> <!--abVideo-->
+<package>com.stupeflix.replay,2</package> <!--Quik – Free Video Editor for photos-->
+<package>com.cyberlink.powerdirector.DRA140225_01,2</package> <!--PowerDirector-->
+<package>com.funcamerastudio.videomaker,2</package> <!--Video Maker of Photos with Music & -->
+<package>com.hecorat.screenrecorder.free,2</package> <!--AZ Screen Recorder-->
+<package>com.sony.tvsideview.phone,2</package> <!--Video & TV SideView : Remote-->
+<package>com.hikvision.hikconnect,2</package> <!--Hik-->
+<package>com.wondershare.filmorago,2</package> <!--FilmoraGo-->
+<package>co.we.torrent,2</package> <!--WeTorrent-->
+<package>com.camerasideas.trimmer,2</package> <!--YouCut-->
+<package>com.rahul.videoderbeta,2</package> <!--Video Downloader-->
+<package>com.ss.android.ugc.trill,2</package> <!--TikTok-->
+<package>free.video.downloader.freevideodownloader,2</package> <!--Free Video Downloader-->
+<package>com.vid007.videobuddy,2</package> <!--VideoBuddy — Fast Downloader-->
+<package>com.ss.android.ugc.trill.go,2</package> <!--TikTok Lite-->
+<package>mobi.charmer.myscreenrecorder,2</package> <!--Screen Recorder V Recorder-->
+<package>com.opex.makemyvideostatus,2</package> <!--Lyrical.ly-->
+<package>video.like.lite,2</package> <!--Likee Lite-->
+<package>com.vidmix.app,2</package> <!--VidMix-->
+<package>com.king.candycrushsaga,2</package> <!--Candy Crush Saga-->
+<package>com.ludo.king,2</package> <!--Ludo King?-->
+<package>com.supercell.clashofclans,2</package> <!--Clash of Clans-->
+<package>com.miniclip.eightballpool,2</package> <!--8 Ball Pool-->
+<package>com.word.puzzle.game.connect,2</package> <!--Word Link-->
+<package>com.king.candycrushsodasaga,2</package> <!--Candy Crush Soda Saga-->
+<package>com.dts.freefireth,2</package> <!--Garena Free Fire-->
+<package>com.showtimeapp,2</package> <!--Loco-->
+<package>com.ansangha.drdriving,2</package> <!--Dr. Driving-->
+<package>com.fortune.sim.game.cash,2</package> <!--Hello Stars-->
+<package>com.supercell.clashroyale,2</package> <!--Clash Royale-->
+<package>com.riseup.game,2</package> <!--Rise Up-->
+<package>com.nextwave.wcc2,2</package> <!--World Cricket Championship 2-->
+<package>io.teslatech.callbreak,2</package> <!--Callbreak Multiplayer-->
+<package>com.octro.teenpatti,2</package> <!--Teen Patti by Octro-->
+<package>com.jetstartgames.chess,2</package> <!--Chess-->
+<package>com.fingersoft.hillclimb,2</package> <!--Hill Climb Racing-->
+<package>com.wordgame.puzzle.board.en,2</package> <!--Word Cross-->
+<package>com.moonactive.coinmaster,2</package> <!--Coin Master-->
+<package>com.imangi.templerun,2</package> <!--Temple Run-->
+<package>com.game5mobile.lineandwater,2</package> <!--Happy Glass-->
+<package>com.fungames.sniper3d,2</package> <!--Sniper 3D Gun Shooter: Free Elite Shooting -->
+<package>com.ludo.master.hippo,2</package> <!--Ludo Master-->
+<package>uk.co.aifactory.chessfree,2</package> <!--Chess Free-->
+<package>com.h8games.helixjump,2</package> <!--Helix Jump-->
+<package>com.teenpatti.hd.gold,2</package> <!--Teen Patti Gold-->
+<package>com.outfit7.talkingtom,2</package> <!--Talking Tom Cat-->
+<package>com.firsttouchgames.dls3,2</package> <!--Dream League Soccer-->
+<package>com.ea.gp.fifamobile,2</package> <!--FIFA Soccer-->
+<package>bubbleshooter.orig,2</package> <!--Bubble Shooter-->
+<package>com.skgames.trafficrider,2</package> <!--Traffic Rider-->
+<package>com.firsttouchgames.story,2</package> <!--Score! Hero-->
+<package>com.igg.android.lordsmobile,2</package> <!--Lords Mobile: Battle of the Empires-->
+<package>com.bitmango.rolltheballunrollme,2</package> <!--Roll the Ball?-->
+<package>com.supertapx.lovedots,2</package> <!--Love Balls-->
+<package>com.rovio.angrybirdsrio,2</package> <!--Angry Birds Rio-->
+<package>com.differencetenderwhite.skirt,2</package> <!--Block Puzzle Jewel-->
+<package>com.BuddyMattEnt.ChainReaction,2</package> <!--Chain Reaction-->
+<package>com.bigduckgames.flow,2</package> <!--Flow Free-->
+<package>com.nautilus.RealCricket3D,2</package> <!--Real Cricket? 19-->
+<package>com.ansangha.drjb,2</package> <!--Dr. Driving 2-->
+<package>jp.konami.pesam,2</package> <!--PES 2019 PRO EVOLUTION SOCCER-->
+<package>com.happyadda.jalebi,2</package> <!--Jalebi-->
+<package>com.games24x7.ultimaterummy.playstore,2</package> <!--Ultimate RummyCircle-->
+<package>com.brainbaazi,2</package> <!--Live Quiz Games App-->
+<package>com.outfit7.talkingtomgoldrun,2</package> <!--Talking Tom Gold Run-->
+<package>com.noodlecake.altosodyssey,2</package> <!--Alto's Odyssey-->
+<package>com.ea.games.r3_na,2</package> <!--Real Racing 3-->
+<package>com.aim.racing,2</package> <!--Extreme Car Driving Simulator-->
+<package>com.bentostudio.ballsvsblocks,2</package> <!--Snake VS Block-->
+<package>com.droidhen.game.racingmoto,2</package> <!--Racing Moto-->
+<package>com.bitmango.go.wordcookies,2</package> <!--Word Cookies!?-->
+<package>com.dvloper.granny,2</package> <!--Granny-->
+<package>com.episodeinteractive.android.catalog,2</package> <!--Episode-->
+<package>com.playrix.township,2</package> <!--Township-->
+<package>com.playgendary.kickthebuddy,2</package> <!--Kick the Buddy-->
+<package>com.gta.real.gangster.crime,2</package> <!--Real Gangster Crime-->
+<package>com.ketchapp.knifehit,2</package> <!--Knife Hit-->
+<package>badminton.king.sportsgame.smash,2</package> <!--Badminton League-->
+<package>com.miniclip.archery,2</package> <!--Archery King-->
+<package>com.king.candycrushjellysaga,2</package> <!--Candy Crush Jelly Saga-->
+<package>com.tencent.iglite,2</package> <!--PUBG MOBILE LITE-->
+<package>com.ffgames.racingincar2,2</package> <!--Racing in Car 2-->
+<package>com.nianticlabs.pokemongo,2</package> <!--Pokémon GO-->
+<package>io.voodoo.holeio,2</package> <!--Hole.io-->
+<package>com.mediocre.smashhit,2</package> <!--Smash Hit-->
+<package>com.king.farmheroessaga,2</package> <!--Farm Heroes Saga-->
+<package>com.fingersoft.hcr2,2</package> <!--Hill Climb Racing 2-->
+<package>com.supercell.hayday,2</package> <!--Hay Day-->
+<package>com.brokenreality.planemerger.android,2</package> <!--Merge Plane-->
+<package>com.herocraft.game.free.gibbets3,2</package> <!--Gibbets: Bow Master-->
+<package>com.billiards.city.pool.nation.club,2</package> <!--Pooking-->
+<package>com.halfbrick.fruitninjafree,2</package> <!--Fruit Ninja?-->
+<package>com.octro.rummy,2</package> <!--Indian Rummy (13 & 21 Cards) by -->
+<package>slither.io,2</package> <!--slither.io-->
+<package>com.rovio.angrybirds,2</package> <!--Angry Birds Classic-->
+<package>com.chess,2</package> <!--Chess · Play & Learn-->
+<package>com.quizup.core,2</package> <!--QuizUp-->
+<package>com.skgames.trafficracer,2</package> <!--Traffic Racer-->
+<package>com.fungames.flightpilot,2</package> <!--Flight Pilot Simulator 3D Free-->
+<package>com.gameloft.android.ANMP.GloftNOHM,2</package> <!--N.O.V.A. Legacy-->
+<package>com.generagames.resistance,2</package> <!--Cover Fire: Shooting Games PRO-->
+<package>com.mobile.legends,2</package> <!--Mobile Legends: Bang Bang-->
+<package>com.miniclip.footballstrike,2</package> <!--Football Strike-->
+<package>com.rioo.runnersubway,2</package> <!--Subway Princess Runner-->
+<package>wood.puzzle.game.blockpuzzle,2</package> <!--Wood Block Puzzle-->
+<package>com.picsart.studio,2</package> <!--PicsArt Photo Editor: Pic-->
+<package>vStudio.Android.Camera360,2</package> <!--Camera360: Selfie Photo Editor with Funny Sticker-->
+<package>com.shinycore.picsayfree,2</package> <!--PicSay Pro-->
+<package>com.campmobile.snow,2</package> <!--SNOW-->
+<package>com.touchbyte.photosync,2</package> <!--abPhoto (photo backup)-->
+<package>camera360.lite.beauty.selfie.camera,2</package> <!--Camera360 Lite-->
+<package>com.moonlab.unfold,2</package> <!--Unfold — Create Stories-->
+<package>dstudio.tool.instasave,2</package> <!--QuickSave for Instagram-->
+<package>com.cyworld.camera,2</package> <!--Cymera Camera-->
+<package>com.ginnypix.kujicam,2</package> <!--Kuji Cam-->
+<package>com.youthhr.phonto,2</package> <!--Phonto-->
+<package>com.linecorp.foodcam.android,2</package> <!--Foodie-->
+<package>com.mt.mtxx.mtxx,2</package> <!--Meitu – Beauty Cam-->
+<package>org.adesanyaaa.appmoviecreator,2</package> <!--Movie Creator-->
+<package>jp.naver.linecamera.android,2</package> <!--LINE Camera-->
+<package>com.flavionet.android.camera.lite,2</package> <!--Camera FV-->
+<package>com.sony.playmemories.mobile,2</package> <!--Imaging Edge Mobile-->
+<package>com.sonymobile.androidapp.cameraaddon.areffect,2</package> <!--AR effect-->
+<package>com.fujifilm_dsc.app.remoteshooter,2</package> <!--FUJIFILM Camera Remote-->
+<package>sweet.selfie.lite,2</package> <!--Sweet Selfie Camera:Beauty cam-->
+<package>com.xiaomi.xy.sportscamera,2</package> <!--YI Action-->
+<package>com.sonymobile.android.addoncamera.styleportrait,2</package> <!--Style portrait-->
+<package>com.snowcorp.soda.android,2</package> <!--SODA-->
+<package>com.meepo.instasave,2</package> <!--InstaSave-->
+<package>com.ffffstudio.kojicam,2</package> <!--1998 Cam-->
+<package>com.hefe.pro.editor,2</package> <!--Photo Editor Pro-->
+<package>com.gorgeous.liteinternational,2</package> <!--Ulike-->
+<package>com.simplemobiletools.gallery,2</package> <!--Simple Gallery Pro: Photo Manager & Editor-->
+<package>instagramstory.maker.unfold,2</package> <!--StoryChic:IG Story Art Maker-->
+<package>com.ryzenrise.storyart,2</package> <!--StoryArt-->
+<package>com.photogrid.lite,2</package> <!--PhotoGrid Lite: Photo Collage Maker & Photo -->
+<package>com.hodanny.instagrid,2</package> <!--9square for Instagram-->
+<package>com.camera.one.s10.camera,2</package> <!--One S10 Camera-->
+<package>instagram.story.art.collage,2</package> <!--Mojito-->
+<package>com.fueled.afterlight,2</package> <!--Afterlight-->
+<package>com.jeyluta.timestampcamerafree,2</package> <!--Timestamp Camera Free-->
+<package>com.handycloset.android.stickers,2</package> <!--Personal Stickers-->
+<package>com.gilangfaisal.thestream,2</package> <!--Vidio-->
+<package>com.rocks.music.videoplayer,2</package> <!--Video Player All Format-->
+<package>com.music.video.player.hdxo,2</package> <!--SHビデオプレーヤー-->
+<package>com.besthdvideo.editor.cutter.converter.pstr,2</package> <!--VivaVideo PRO Video Editor HD-->
+<package>com.znstudio.instadownload,2</package> <!--Downloader for Instagram: Photo & Video Saver-->
+<package>facebookvideodownloader.videodownloaderforfacebook,2</package> <!--Video Downloader for Facebook Video Downloader-->
+<package>com.ants360.yicamera,2</package> <!--YI Home-->
+<package>com.kmplayer,2</package> <!--Video Player HD All formats & codecs-->
+<package>com.yoosee,2</package> <!--Yoosee-->
+<package>com.gretech.gomplayerko,2</package> <!--GOM Player-->
+<package>com.nbs.useetv,2</package> <!--UseeTV GO-->
+<package>storysaverforinstagram.storydownloader.instastorysaver,2</package> <!--Story Saver for Instagram-->
+<package>com.mobivio.android.cutecut,2</package> <!--Cute CUT-->
+<package>com.soludens.movieview,2</package> <!--Soul Movie-->
+<package>com.media.digital,2</package> <!--TV Indonesia-->
+<package>com.tencent.qqlivei18n,2</package> <!--WeTV-->
+<package>com.playtube.videotube.tubevideo,2</package> <!--Play Tube & Video Tube-->
+<package>com.downloadvideo.freevideodownloader.downloadall,2</package> <!--Free Video Downloader-->
+<package>videocutter.mp3cutter.videotomp3converter.powertrimmer,2</package> <!--Video to MP3 Converter-->
+<package>videoeditor.videorecorder.screenrecorder,2</package> <!--Screen Recorder & Video Recorder-->
+<package>com.player.zaltv,2</package> <!--ZalTV Player-->
+<package>com.television.burma,2</package> <!--Burma TV-->
+<package>com.tencent.ig,2</package> <!--PUBG MOBILE-->
+<package>com.garena.game.kgid,2</package> <!--Garena AOV-->
+<package>vha.cds,2</package> <!--Candy Crush Saga-->
+<package>me.pou.app,2</package> <!--Pou-->
+<package>com.firsttouchgames.dlsa,2</package> <!--Dream League Soccer-->
+<package>com.shy.badminton.simulator.game.swipe.court.smash.pass.field.stage.cue,2</package> <!--Badminton League-->
+<package>com.rtsoft.growtopia,2</package> <!--Growtopia-->
+<package>org.ppsspp.ppsspp,2</package> <!--PPSSPP-->
+<package>com.gue.pesanyar,2</package> <!--PES 2019 PRO EVOLUTION SOCCER-->
+<package>net.mobigame.zombietsunami,2</package> <!--Zombie Tsunami-->
+<package>com.ea.watchface.pvzzombie,2</package> <!--Plants vs. Zombies FREE-->
+<package>com.linecorp.LGGRTHN,2</package> <!--LINE Let's Get Rich-->
+<package>com.maleo.bussimulatorid,2</package> <!--Bus Simulator Indonesia-->
+<package>joykeratif.tts,2</package> <!--Teka-->
+<package>com.DoniAndroid.TTSTekaTekiSilangOffline2019,2</package> <!--Teka Teki Silang-->
+<package>com.playrix.homescapes,2</package> <!--Homescapes-->
+<package>com.ea.game.simcitymobile_row,2</package> <!--SimCity BuildIt-->
+<package>com.epsxe.ePSXe,2</package> <!--ePSXe for Android-->
+<package>com.touchtao.soccerkinggoogle,2</package> <!--World Soccer League-->
+<package>com.bunbogames.racingxtreme,2</package> <!--Asphalt 9: Legends-->
+<package>com.roblox.client,2</package> <!--Roblox-->
+<package>com.paragisoft.gaple,2</package> <!--Gaple-->
+<package>com.tebakgambar,2</package> <!--Tebak Gambar-->
+<package>com.jellyblast.cmcm,2</package> <!--Jellipop Match: Open your dream shop！-->
+<package>pawapp.games.onetdeluxe,2</package> <!--Onet Deluxe-->
+<package>com.gamegou.football,2</package> <!--Top Eleven 2019-->
+<package>com.miHoYo.bh3oversea,2</package> <!--Honkai Impact 3-->
+<package>com.MangoSoft.Susun,2</package> <!--Mango Capsa Susun-->
+<package>com.vectorunit.purple.googleplay,2</package> <!--Beach Buggy Racing-->
+<package>com.netease.idv.googleplay,2</package> <!--Identity V-->
+<package>com.constructmonkey.rr3guide,2</package> <!--Real Racing 3-->
+<package>com.mobirix.fishinghook,2</package> <!--Fishing Hook-->
+<package>agame.onet.classic,2</package> <!--Onet Classic-->
+<package>jpark.AOS5,2</package> <!--Anger of stick 5 : zombie-->
+<package>com.ForgeGames.SpecialForcesGroup2,2</package> <!--Special Forces Group 2-->
+<package>com.asobimo.toramonline,2</package> <!--RPG Toram Online-->
+<package>com.netmarble.mherosgb,2</package> <!--MARVEL Future Fight-->
+<package>balls.arcademaker.bricks.breaker.brounce.ballz,2</package> <!--Balls Bricks Breaker-->
+<package>com.cooking.mama.kitchen.dinner,2</package> <!--Cooking Mama: Let's cook!-->
+<package>com.YoStarEN.AzurLane,2</package> <!--Azur Lane-->
+<package>com.netmarble.sknightsgb,2</package> <!--Seven Knights-->
+<package>com.fgol.HungrySharkEvolution,2</package> <!--Hungry Shark Evolution-->
+<package>com.chillingo.robberybobfree.android.row,2</package> <!--Robbery Bob-->
+<package>com.youmusic.magictiles,2</package> <!--Magic Tiles 3-->
+<package>com.ea.gp.nbamobile,2</package> <!--NBA LIVE Mobile Basketball-->
+<package>com.shootinggames.sniper3d.assassin,2</package> <!--Sniper 3D Gun Shooter: Free Elite Shooting -->
+<package>com.bubadu.bubbu,2</package> <!--Bubbu – My Virtual Pet-->
+<package>com.forthblue.pool,2</package> <!--Pool Billiards Pro-->
+<package>com.gta.grandtheftauto.sanandreas.codes,2</package> <!--Grand Theft Auto: San Andreas-->
+<package>com.ChillyRoom.DungeonShooter,2</package> <!--Soul Knight-->
+<package>com.fungames.blockcraft,2</package> <!--Block Craft 3D: Building Simulator Games For -->
+<package>com.pixonic.wwr,2</package> <!--War Robots-->
+<package>com.kit.durangoguides,2</package> <!--Durango: Wild Lands-->
+<package>jp.konami.duellinks,2</package> <!--Yu-->
+<package>com.nordcurrent.canteenhd,2</package> <!--Cooking Fever-->
+<package>com.sweetmatch3gamesmania.fruitsbomb,2</package> <!--Fruits Bomb-->
+<package>com.wikia.singlewikia.fategrandorder,2</package> <!--Fate/Grand Order (English)-->
+<package>jp.konami.pesclubmanager,2</package> <!--PES CLUB MANAGER-->
+<package>com.rovio.baba,2</package> <!--Angry Birds 2-->
+<package>com.mili.dghcr.nearme.gamecenter,2</package> <!--倒钩火柴人-->
+<package>com.kabam.marvelbattle.netease.nesh.nearme.gamecenter,2</package> <!--漫威：超级争霸战-->
+<package>com.tomato.joy.zzr.nearme.gamecenter,2</package> <!--粘住火柴蜘蛛人-->
+<package>com.igame.hlxsg.nearme.gamecenter,2</package> <!--欢乐消水果-->
+<package>com.tencent.raziel,2</package> <!--拉结尔-->
+<package>com.yt.zjsc.nearme.gamecenter,2</package> <!--终极赛车狂飙-->
+<package>com.tomato.ditchingwork.nearme.gamecenter,2</package> <!--走出办公室-->
+<package>com.tencent.fifamobile,2</package> <!--FIFA足球世界-->
+<package>com.lanse.chinachess.nearme.gamecenter,2</package> <!--中国象棋竞技版-->
+<package>com.sofunny.Chicken,2</package> <!--香肠派对-->
+<package>com.hzah.pvzstar.nearme.gamecenter,2</package> <!--植物大战僵尸全明星-->
+<package>com.dtszjkhd.nearme.gamecenter,2</package> <!--精灵盛典-->
+<package>com.zsfz.fywzmxzl2.nearme.gamecenter,2</package> <!--飞鱼王子冒险之旅-->
+<package>com.yaoji.byhlz.nearme.gamecenter,2</package> <!--捕鱼欢乐炸-->
+<package>com.shhxz.zhuzhuxiawulinkupao.nearme.gamecenter,2</package> <!--猪猪侠之五灵酷跑-->
+<package>com.sjxx.zycs.nearme.gamecenter,2</package> <!--注意车速-->
+<package>com.lywx.ytdd.nearme.gamecenter,2</package> <!--一跳到底-->
+<package>com.netease.dhxy.nearme.gamecenter,2</package> <!--大话西游-->
+<package>com.tencent.hlfish,2</package> <!--腾讯欢乐捕鱼-->
+<package>com.tencent.clover,2</package> <!--雷霆战机-->
+<package>com.mf.game.dwdlm.nearme.gamecenter,2</package> <!--动物大联盟（老虎求生战场）-->
+<package>com.tuyoo.doudizhu.maintu.nearme.gamecenter,2</package> <!--途游斗地主-->
+<package>com.ipeaksoft.pitDadGame,2</package> <!--史上最坑爹的游戏-->
+<package>com.tencent.ggame,2</package> <!--腾讯广东麻将-->
+<package>com.racergame.cityracing3d,2</package> <!--城市飞车-->
+<package>com.crisisfire.android.nearme.gamecenter,2</package> <!--全民枪战2-->
+<package>com.tianyi.fkclpkmn.game.nearme.gamecenter,2</package> <!--疯狂车轮跑酷模拟-->
+<package>cn.ultralisk.gameapp.game37.nearme.gamecenter,2</package> <!--叶罗丽美颜公主-->
+<package>com.pepper.bfyfj.nearme.gamecenter,2</package> <!--八分音符酱-->
+<package>com.tongcn.hcrdzz.nearme.gamecenter,2</package> <!--火柴人大作战-->
+<package>com.kuiyi.twdcr.game.nearme.gamecenter,2</package> <!--逃亡的超人-->
+<package>com.chaojitangxian.game.nearme.gamecenter,2</package> <!--超级探险-->
+<package>com.prgame5.fish2.online.nearme.gamecenter,2</package> <!--街机达人捕鱼-->
+<package>com.zsfz.klzsmn3d.nearme.gamecenter,2</package> <!--恐龙真实模拟3D-->
+<package>com.mfkj.mnsdzxc.nearme.gamecenter,2</package> <!--模拟山地自行车-->
+<package>com.huati,2</package> <!--葫芦侠3楼-->
+<package>com.wb.hcrcj.new.nearme.gamecenter,2</package> <!--暴击火柴人-->
+<package>com.noAds.SubwaySimulator,2</package> <!--城市蜘蛛人英雄冬季版-->
+<package>com.playcrab.kos.nearme.gamecenter,2</package> <!--一拳超人：最强之男-->
+<package>com.taiyouxi.jiwushuang.oppo.nearme.gamecenter,2</package> <!--极无双-->
+<package>com.tencent.tmgp.jnbg2,2</package> <!--纪念碑谷2-->
+<package>com.e8game.lpsfq.nearme.gamecenter,2</package> <!--找到老婆的私房钱-->
+<package>com.tencent.shihun.android,2</package> <!--侍魂-->
+<package>com.zsfz.wjjjzmn.nearme.gamecenter,2</package> <!--挖掘机建造模拟-->
+<package>com.ea.android.chs.nbamobile.nearme.gamecenter,2</package> <!--NBALIVE-->
+<package>com.redwoods.qmpy.nearme.gamecenter,2</package> <!--全民漂移：狂野飙车-->
+<package>com.tencent.imprison,2</package> <!--记忆重构-->
+<package>com.zsfz.hscqhlb.nearme.gamecenter,2</package> <!--海蛇传奇-->
+<package>com.lew.game.pianoblock.nearme.gamecenter,2</package> <!--节奏的钢琴白块-->
+<package>com.netease.hzmbqs.nearme.gamecenter,2</package> <!--绘真·妙笔千山-->
+<package>com.carrot.iceworld,2</package> <!--保卫萝卜2-->
+<package>com.sg.bjjs.nearme.gamecenter,2</package> <!--热血奥特曼（暴击僵尸）-->
+<package>com.k7k7.goujihd.nearme.gamecenter,2</package> <!--多乐够级-->
+<package>com.libii.gymnasticsqueen.nearme.gamecenter,2</package> <!--体操少女-->
+<package>com.jiami.landlords.nearme.gamecenter,2</package> <!--欢乐人人斗地主-->
+<package>com.minidip.cftzdj.nearme.gamecenter,2</package> <!--超凡特战队-->
+<package>com.duole.zhuojimjhd.nearme.gamecenter,2</package> <!--多乐贵阳捉鸡麻将-->
+<package>com.mfkj.hhjs.nearme.gamecenter,2</package> <!--豪华竞速-->
+<package>com.ubisoft.rabbidsrunner.nearme.gamecenter,2</package> <!--疯狂兔子：无敌跑跑-->
+<package>com.libii.pethospital.nearme.gamecenter,2</package> <!--毛绒宠物医院-->
+<package>com.joym.armorbear2.nearme.gamecenter,2</package> <!--熊出没机甲熊大2-->
+<package>com.huale.ultraman2.nearme.gamecenter,2</package> <!--酷跑奥特曼2-->
+<package>com.wb.mbdzz.nearme.gamecenter,2</package> <!--麦比大作战-->
+<package>com.cats.idreamsky.nearme.gamecenter,2</package> <!--喵星大作战-->
+<package>com.mf.monsterblast.nearme.gamecenter,2</package> <!--飞屋消消消-->
+<package>com.mfkj.ldzjcq.nearme.gamecenter,2</package> <!--雷电战机-->
+<package>com.tomatojoy.nkdyx.nearme.gamecenter,2</package> <!--纽扣的游戏-->
+<package>com.libii.lovediary.nearme.gamecenter,2</package> <!--公主恋爱日记-->
+<package>tong.mfgame.bxzj.nearme.gamecenter,2</package> <!--变形装甲-->
+<package>com.yunbu.superdocdor.nearme.gamecenter,2</package> <!--宝宝超级医生-->
+<package>com.ikoalabear.x5online.nearme.gamecenter,2</package> <!--炫舞浪漫爱-->
+<package>com.cmplay.tiles2,2</package> <!--\N-->
+<package>com.racinggames.euro_truck.simulator_driver,2</package> <!--欧洲卡车模驾驶拟器2018-->
+<package>com.mars.fkdqq.nearme.gamecenter,2</package> <!--疯狂的球球-->
+<package>com.yunbu.royalwedding2.nearme.gamecenter,2</package> <!--冰雪皇家婚礼2-->
+<package>com.mas.wawagame.nearme.gamecenter,2</package> <!--真人斗地主2-->
+<package>com.yzxx.pixelwildworld.nearme.gamecenter,2</package> <!--像素求生战场-->
+<package>com.thgame.maze.nearme.gamecenter,2</package> <!--迷宫解谜-->
+<package>com.guandan.nearme.gamecenter,2</package> <!--掼蛋-->
+<package>com.tencent.ft,2</package> <!--妖精的尾巴：魔导少年-->
+<package>com.KingOfTank.nearme.gamecenter,2</package> <!--坦克前线：帝国OL-->
+<package>com.dkm.wmsg.nearme.gamecenter,2</package> <!--文明曙光-->
+<package>com.tencent.kof,2</package> <!--拳皇命运-->
+<package>com.leiben.bridgebuilder.nearme.gamecenter,2</package> <!--翻滚飞车-->
+<package>com.igame.mrzl.nearme.gamecenter,2</package> <!--明日之恋-->
+<package>com.tomato.joy.cqpz.nearme.gamecenter,2</package> <!--彩球碰撞-->
+<package>com.whjf.qmcjzc.nearme.gamecenter,2</package> <!--全民吃鸡战场-->
+<package>np.idreamsky.horizonchase.nearme.gamecenter,2</package> <!--疾风飞车世界-->
+<package>com.tencent.yunmeng,2</package> <!--云梦四时歌-->
+<package>com.zhexinit.haimianbaobaopaoku.nearme.gamecenter,2</package> <!--海绵宝宝-->
+<package>com.joym.bearforward.nearme.gamecenter,2</package> <!--熊大熊二向前冲-->
+<package>com.huochairen.breaking.nearme.gamecenter,2</package> <!--火柴人必须死-->
+<package>com.liuguan.jjsdzj.nearme.gamecenter,2</package> <!--狙击手大追击-->
+<package>com.cmge.lzjx.nearme.gamecenter,2</package> <!--龙珠觉醒-->
+<package>com.shenhaichuidiao.net.nearme.gamecenter,2</package> <!--深海垂钓-->
+<package>ao.qjxsr.nearme.gamecenter,2</package> <!--像素人前进-->
+<package>com.xyjx.hardtime.nearme.gamecenter,2</package> <!--玄元剑仙-->
+<package>com.jd.game.onetfruit.nearme.gamecenter,2</package> <!--开心水果连连看2-->
+<package>com.jianyou.jszzj.nearme.gamecenter,2</package> <!--僵尸榨汁机-->
+<package>com.sg.atmlmzbbcr.nearme.gamecenter,2</package> <!--奥特曼联盟之百变超人-->
+<package>com.joym.runningbear.nearme.gamecenter,2</package> <!--熊熊乐园奔跑吧熊大-->
+<package>com.GF.apcgcncn.hwyad.nearme.gamecenter,2</package> <!--熹妃Q传-->
+<package>com.tomato.joy.zjfc.nearme.gamecenter,2</package> <!--致命漂移-->
+<package>com.e8game.lpsfq2.nearme.gamecenter,2</package> <!--找到老婆的私房钱2-->
+<package>air.com.martian.RoomEscape1.oppo,2</package> <!--密室逃脱1逃离地牢-->
+<package>com.zsfz.cjpk.nearme.gamecenter,2</package> <!--超级跑酷-->
+<package>com.tencent.game.SSGame,2</package> <!--天天飞车-->
+<package>com.tencent.WeFire,2</package> <!--全民突击-->
+<package>com.yunbu.princessmagic.nearme.gamecenter,2</package> <!--公主魔法美妆-->
+<package>com.fingertip.tyt.nearme.gamecenter,2</package> <!--开心跳一跳-->
+<package>com.netease.pes.nearme.gamecenter,2</package> <!--实况足球-->
+<package>com.junhai.tgfml.nearme.gamecenter,2</package> <!--太古封魔录-->
+<package>com.tencent.hyrzol,2</package> <!--火影忍者：忍者新世代-->
+<package>com.yunbu.magicprincess.nearme.gamecenter,2</package> <!--魔法公主礼仪学院-->
+<package>com.mlmhxy.nearme.gamecenter,2</package> <!--梦幻逍遥-->
+<package>com.tomato.joy.ybh.nearme.gamecenter,2</package> <!--开心玻璃杯-->
+<package>com.yodo1.tew.nearme.gamecenter,2</package> <!--变形金刚:地球之战-->
+<package>com.bingougame.tgsw.nearme.gamecenter,2</package> <!--太古神王-->
+<package>com.tyqy.nearme.gamecenter,2</package> <!--天影奇缘-->
+<package>com.zsfz.tss.nearme.gamecenter,2</package> <!--贪食蛇-->
+<package>com.zsfz.dsmtc.nearme.gamecenter,2</package> <!--登山摩托车-->
+<package>com.libii.libbychef.nearme.gamecenter,2</package> <!--莉比小公主之梦幻餐厅-->
+<package>com.ViperGames.StickmanDismount,2</package> <!--弄死火柴人（StickmanDismounting）-->
+<package>com.liuguan.xqs.nearme.gamecenter,2</package> <!--小枪手-->
+<package>com.tencent.tmgp.sskgame,2</package> <!--圣斗士星矢(腾讯)-->
+<package>com.netease.wotb.nearme.gamecenter,2</package> <!--坦克世界闪击战-->
+<package>com.noodlecake.gettingoverit,2</package> <!--掘地求升-->
+<package>com.jiguang.dtszj.nearme.gamecenter,2</package> <!--永恒纪元：戒-->
+<package>com.pujiadev.skipschool3.nearme.gamecenter,2</package> <!--我要翘课-->
+<package>com.jiami.quickmj.nearme.gamecenter,2</package> <!--欢乐四川麻将3D版-->
+<package>com.netease.frxy.nearme.gamecenter,2</package> <!--非人学园-->
+<package>com.yichao.fish.nearme.gamecenter,2</package> <!--乐金捕鱼-->
+<package>com.quduoduo.penrun.nearme.gamecenter,2</package> <!--奔跑的笔-->
+<package>com.jd.game.onetpet.nearme.gamecenter,2</package> <!--宠物连连消-->
+<package>com.zsfz.ppd3.nearme.gamecenter,2</package> <!--泡泡弹-->
+<package>com.libii.puppysalon.nearme.gamecenter,2</package> <!--莉比小公主之宠物沙龙-->
+<package>com.netease.stzb.nearme.gamecenter,2</package> <!--率土之滨-->
+<package>com.jhtc.snake.nearme.gamecenter,2</package> <!--贪吃蛇大乱斗-->
+<package>com.libii.princessnewbaby.nearme.gamecenter,2</package> <!--公主的新生小宝宝-->
+<package>com.supertapx.lovedots.nearme.gamecenter,2</package> <!--恋爱球球-->
+<package>com.zsfz.hcryx.nearme.gamecenter,2</package> <!--火柴人英雄-->
+<package>com.onemore.d2,2</package> <!--极品狂飙Ⅱ-->
+<package>com.jym.fungames.flightpilot.nearme.gamecenter,2</package> <!--机械飞行师-->
+<package>com.zsfz.xnny3dmn.nearme.gamecenter,2</package> <!--虚拟女友模拟-->
+<package>com.XCMTS.BearLimitejection.nearme.gamecenter,2</package> <!--熊出没之极限弹射-->
+<package>com.idreamsky.mygarfield.nearme.gamecenter,2</package> <!--我的加菲猫-->
+<package>com.k7k7.BaoHuang.nearme.gamecenter,2</package> <!--多乐保皇-->
+<package>com.onesyn.syobonaction_online,2</package> <!--猫里奥-->
+<package>com.xplaygame.tuoluo.nearme.gamecenter,2</package> <!--旋转陀螺多人对战-->
+<package>com.hswy.wrddz.nearme.gamecenter,2</package> <!--万人斗地主-->
+<package>com.tencent.tmgp.projectg,2</package> <!--和平精英体验服-->
+<package>com.fengniao.qtdl.nearme.gamecenter,2</package> <!--抢滩登陆3D-->
+<package>com.mili.mnhxdr.nearme.gamecenter,2</package> <!--模拟大恐龙-->
+<package>com.zsfz.klbddhdl.nearme.gamecenter,2</package> <!--可乐被弟弟喝掉了-->
+<package>com.qzyx2.union.keke.nearme.gamecenter,2</package> <!--英雄枪战-->
+<package>com.wifi.popstar.nearme.gamecenter,2</package> <!--跳一跳加强版-->
+<package>com.wb.qqccc.nearme.gamecenter,2</package> <!--球球冲冲冲-->
+<package>com.mfkj.pmdzz.nearme.gamecenter,2</package> <!--泡面大作战-->
+<package>com.tetrisAn.nearme.gamecenter,2</package> <!--俄罗斯方块-->
+<package>com.xcqy.nearme.gamecenter,2</package> <!--星辰奇缘-->
+<package>com.frontline.DesertEscape.nearme.gamecenter,2</package> <!--沙漠逃生-->
+<package>com.k7k7.shengjihd.nearme.gamecenter,2</package> <!--多乐升级-->
+<package>com.joym.armorultraman.nearme.gamecenter,2</package> <!--机甲奥特曼-->
+<package>com.yingxiong.dfzj.nearme.gamecenter,2</package> <!--巅峰战舰-->
+<package>com.netease.nshhelper.nearme.gamecenter,2</package> <!--遇见逆水寒-->
+<package>com.kuiyi.lysq.game.nearme.gamecenter,2</package> <!--超级步兵-->
+<package>com.lemonjamstudio.drawacar.nearme.gamecenter,2</package> <!--画个车-->
+<package>com.jsh.hcsy.nearme.gamecenter,2</package> <!--豪车盛宴-->
+<package>com.mojang.minecraftpe,2</package> <!--我的世界-->
+<package>com.pdragon.weiqi.nearme.gamecenter,2</package> <!--围棋-->
+<package>com.centurysoft.roboking,2</package> <!--机战王-->
+<package>com.nova.Exciting.nearme.gamecenter,2</package> <!--刺激狂飙-->
+<package>com.wingjoy.mylife.nearme.gamecenter,2</package> <!--第二人生-->
+<package>com.mfkj.fkdpd.nearme.gamecenter,2</package> <!--疯狂的拍打-->
+<package>com.tianyi.jxmxtz3d.game.nearme.gamecenter,2</package> <!--极限冒险挑战3D-->
+<package>com.libii.princessroyalhorse.nearme.gamecenter,2</package> <!--皇家马术俱乐部-->
+<package>com.e8game.gtfl.nearme.gamecenter,2</package> <!--奥特曼钢铁飞龙-->
+<package>com.zlongame.yjqy.nearme.gamecenter,2</package> <!--御剑情缘-->
+<package>com.gzbg.syyh.nearme.gamecenter,2</package> <!--神域永恒-->
+<package>com.douapp.bricks,2</package> <!--砖块破坏者-->
+<package>com.igame.hzmmgmx.nearme.gamecenter,2</package> <!--盒子猫-->
+<package>com.xxyx.union.keke.nearme.gamecenter,2</package> <!--小小英雄-->
+<package>com.game2048.nearme.gamecenter,2</package> <!--2048-->
+<package>com.boyaa.chinesechess.nearme.gamecenter,2</package> <!--博雅中国象棋-->
+<package>com.sns.yongzhelixianji.nearme.gamecenter,2</package> <!--勇者历险记-->
+<package>com.ocean.nearme.gamecenter,2</package> <!--木筏求生-->
+<package>com.sg.atmfkpk.nearme.gamecenter,2</package> <!--奥特曼疯狂跑酷-->
+<package>com.mfkj.xhacj.nearme.gamecenter,2</package> <!--小虎爱吃鸡-->
+<package>com.dramaton.slime,2</package> <!--粘液模拟器-->
+<package>com.ftwxsc.nearme.gamecenter,2</package> <!--废土行动-->
+<package>com.libii.gloriamakeupsalon.nearme.gamecenter,2</package> <!--洛娜公主美妆沙龙-->
+<package>com.leqi.buyu2.nearme.gamecenter,2</package> <!--捕鱼比赛-->
+<package>com.yunbu.motorider.nearme.gamecenter,2</package> <!--真实摩托锦标赛-->
+<package>com.tencent.tmgp.bydr3dx,2</package> <!--捕鱼来了-->
+<package>cn.ultralisk.gameapp.game16.nearme.gamecenter,2</package> <!--叶罗丽公主水晶鞋-->
+<package>com.shenghe.mfyx.oppo.nearme.gamecenter,2</package> <!--原始传奇-->
+<package>com.tencent.ssss,2</package> <!--三生三世十里桃花-->
+<package>com.tencent.wok,2</package> <!--万王之王3D-->
+<package>com.mfkj.tcscsdzz.nearme.gamecenter,2</package> <!--经典贪吃蛇-->
+<package>com.zongyi.Popstar_HX.nearme.gamecenter,2</package> <!--消灭星星青春版-->
+<package>com.dygame.hyqs.nearme.gamecenter,2</package> <!--荒岛求生-->
+<package>com.morefun.crazyman.nearme.gamecenter,2</package> <!--疯狂小野人-->
+<package>com.melestudio.jigsaw.nearme.gamecenter,2</package> <!--拼图游戏挑战-->
+<package>com.wemomo.game.smbb.nearme.gamecenter,2</package> <!--数码宝贝:相遇-->
+<package>com.gagex.android.Orion.nearme.gamecenter,2</package> <!--众多回忆的食堂故事-->
+<package>com.szgd.GGBondAmazingHero.nearme.gamecenter,2</package> <!--猪猪侠之百变英雄-->
+<package>com.igame.wjfjzc.nearme.gamecenter,2</package> <!--玩具飞机战场-->
+<package>com.qqbk.fnny.nearme.gamecenter,2</package> <!--球球与白块-->
+<package>com.tencent.lycqsh,2</package> <!--蓝月传奇-->
+<package>com.tencent.tmgp.wec,2</package> <!--乱世王者-->
+<package>com.cw.gamebox,2</package> <!--1号玩家-->
+<package>com.MXW.XY3D.nearme.gamecenter,2</package> <!--鲨鱼模拟猎杀3D-->
+<package>com.xishanju.mysy.nearme.gamecenter,2</package> <!--魔域手游-->
+<package>com.MXW.JSKC.nearme.gamecenter,2</package> <!--极速卡车-->
+<package>com.qp.tlj.nearme.gamecenter,2</package> <!--拖拉机-->
+<package>com.libii.tutotoons.kikififibeautysalon.nearme.gamecenter,2</package> <!--琪琪和菲菲宠物美容院-->
+<package>com.Lxd.Bearsfantasyspace.nearme.gamecenter,2</package> <!--熊出没奇幻空间-->
+<package>com.wedobest.piano.nearme.gamecenter,2</package> <!--白块儿达人-->
+<package>com.sjxx.qmfc.nearme.gamecenter,2</package> <!--3D全民飞车-->
+<package>com.jym.vegascrime2.two.nearme.gamecenter,2</package> <!--拉斯维加斯英雄归来-->
+<package>com.zsfz.ayjjs.nearme.gamecenter,2</package> <!--暗影狙击手-->
+<package>com.longyuan.zzq.nearme.gamecenter,2</package> <!--多多自走棋-->
+<package>com.wxhf.erzhanjuji.nearme.gamecenter,2</package> <!--二战狙击-->
+<package>com.shrw.qsq.nearme.gamecenter,2</package> <!--多兰大陆-->
+<package>com.jjh.Fish.nearme.gamecenter,2</package> <!--集结号捕鱼-->
+<package>com.wqhz.hjtg.nearme.gamecenter,2</package> <!--出击英雄岛-->
+<package>com.gzxm.saiche.nearme.gamecenter,2</package> <!--绝地飞车-->
+<package>com.MXW.ZZYX.nearme.gamecenter,2</package> <!--蜘蛛英雄：惩罚罪恶-->
+<package>com.sg.atmpk.oppo,2</package> <!--酷跑超人-->
+<package>com.wali.ak.nearme.gamecenter,2</package> <!--小米枪战-->
+<package>com.happyelements.happyfishandroidcns,2</package> <!--开心水族箱-->
+<package>com.cqwx.hcrjjst.nearme.gamecenter,2</package> <!--火柴人狙击手3-->
+<package>com.HRYX.klls3d.nearme.gamecenter,2</package> <!--恐龙猎杀3d-->
+<package>com.tencent.tmgp.mituan,2</package> <!--疯狂动物城:筑梦日记-->
+<package>com.hzfb.racing8.nearme.gamecenter,2</package> <!--速度与激情8-->
+<package>com.ultralisk.game24.nearme.gamecenter,2</package> <!--神兽金刚3荣耀之战-->
+<package>com.fingersoft.hillclimb.cn.noncmcc,2</package> <!--登山赛车之天朝历险-->
+<package>com.jixiang.game,2</package> <!--吉祥棋牌-->
+<package>com.gzxm.rhythm.nearme.gamecenter,2</package> <!--钢琴白块节奏-->
+<package>com.wb.gzsj2.nearme.gamecenter,2</package> <!--果汁四溅2-->
+<package>com.libii.libbyvampire.nearme.gamecenter,2</package> <!--莉比公主和精灵贝拉-->
+<package>com.yinhan.hunter.tx,2</package> <!--\N-->
+<package>com.shenghe.wzcq.nearme.gamecenter,2</package> <!--王者传奇-->
+<package>com.saturngame.kdjd.nearme.gamecenter,2</package> <!--口袋决斗-->
+<package>com.soonyo.byds.nearme.gamecenter,2</package> <!--捕鱼大师-->
+<package>com.rappidstudios.simulatorbattlearmy,2</package> <!--军队战争模拟器-->
+<package>com.tomato.joy.jdds.nearme.gamecenter,2</package> <!--掘地登山-->
+<package>com.longtugame.rxjh.nearme.gamecenter,2</package> <!--热血江湖-->
+<package>air.FleeingtheComplex,2</package> <!--火柴人逃离监狱-->
+<package>com.libiitech.sweetprincesshairsalon.nearme.gamecenter,2</package> <!--甜心公主美发屋-->
+<package>com.yunbu.cutekitty.nearme.gamecenter,2</package> <!--我的宠物猫-->
+<package>me.hypertext.local.jiong2,2</package> <!--最囧游戏-->
+<package>com.youmeng.rexueaoteman.nearme.gamecenter,2</package> <!--热血奥特超人跑酷-->
+<package>com.zsfz.jsslz.nearme.gamecenter,2</package> <!--饥鲨狩猎者-->
+<package>com.tencent.freestyle,2</package> <!--街头篮球-->
+<package>com.libii.puppystory.nearme.gamecenter,2</package> <!--我的心动小狗-->
+<package>com.moli.minigame.rollball.nearme.gamecenter,2</package> <!--滚动大作战-->
+<package>com.lywl.xbxxz.nearme.gamecenter,2</package> <!--想不想修真-->
+<package>com.joypac.dagen.nearme.gamecenter,2</package> <!--抱紧大根-->
+<package>com.igame.mmxbl.nearme.gamecenter,2</package> <!--萌萌小笨龙-->
+<package>com.tencent.Qfarm,2</package> <!--全民农场-->
+<package>com.huoshe.klblb.nearme.gamecenter,2</package> <!--快乐玻璃杯-->
+<package>io.voodoo.paper2,2</package> <!--纸片大作战2-->
+<package>com.blockycars.online.wf.nearme.gamecenter,2</package> <!--像素车-->
+<package>com.gamecoolsoft.daysnipe03,2</package> <!--天天狙击-->
+<package>com.wb.hjqg.nearme.gamecenter,2</package> <!--黄金切割-->
+<package>com.yunbu.fashionmakeup.nearme.gamecenter,2</package> <!--时尚美妆达人-->
+<package>com.mingya.highwayracer.nearme.gamecenter,2</package> <!--真实汽车锦标赛-->
+<package>com.yifeng.samecolor.nearme.gamecenter,2</package> <!--跳一跳大师-->
+<package>com.libii.babycare.nearme.gamecenter,2</package> <!--公主宝宝照顾-->
+<package>com.sy.lhxz.nearme.gamecenter,2</package> <!--精灵契约-->
+<package>com.yifeng.elsfko.nearme.gamecenter,2</package> <!--欢乐俄罗斯方块-->
+<package>com.cmcm.killshotbravo.nearme.gamecenter,2</package> <!--狙神荣耀-->
+<package>org.xiaoFeng.AboutYouself,2</package> <!--你了解自己吗-->
+<package>com.xcdh.jumponejump.nearme.gamecenter,2</package> <!--疯狂跳一跳-->
+<package>com.yunbu.candyprincess.nearme.gamecenter,2</package> <!--彩虹糖果公主-->
+<package>com.pdragon.tcs.nearme.gamecenter,2</package> <!--贪吃蛇-->
+<package>com.tianyi.xsmxsj.game.nearme.gamecenter,2</package> <!--像素冒险世界-->
+<package>com.igame.jsfczjkb.nearme.gamecenter,2</package> <!--急速飞车终极狂飙-->
+<package>com.mfkj.mndb.nearme.gamecenter,2</package> <!--模拟大巴-->
+<package>com.tencent.tmgp.jxqy,2</package> <!--新剑侠情缘-->
+<package>com.wb.tkdzz.nearme.gamecenter,2</package> <!--坦克进化大作战-->
+<package>com.uc108.mobile.gamecenter,2</package> <!--同城游-->
+<package>com.igame.sqdzz.nearme.gamecenter,2</package> <!--神枪大作战-->
+<package>com.soulgame.garfield.nearme.gamecenter,2</package> <!--加菲猫酷跑-->
+<package>com.gameloft.android.ANMP.GloftDLCN.nearme.gamecenter,2</package> <!--萌龙大乱斗-->
+<package>com.yunbu.princessmakeupshow.nearme.gamecenter,2</package> <!--魔法公主美妆秀-->
+<package>com.netease.lx12.nearme.gamecenter,2</package> <!--流星蝴蝶剑-->
+<package>com.libii.perfectbeachday.nearme.gamecenter,2</package> <!--莉比小公主的完美沙滩之旅-->
+<package>zo.wz.xingd.nearme.gamecenter,2</package> <!--火线王者求生-->
+<package>cn.jj.hall,2</package> <!--JJ比赛-->
+<package>com.zyxd.mycm.nearme.gamecenter,2</package> <!--萌妖出没-->
+<package>com.MXW.GTZCYY.nearme.gamecenter,2</package> <!--钢铁战场英雄-->
+<package>com.joym.xiongchumo2.keke,2</package> <!--熊出没2-->
+<package>com.asdk.pokemontcg.nearme.gamecenter,2</package> <!--口袋对决-->
+<package>com.zsfz.czczsmn.nearme.gamecenter,2</package> <!--出租车真实模拟-->
+<package>com.libii.gymnasticssalon.nearme.gamecenter,2</package> <!--体操沙龙-->
+<package>com.zsfz.xfcjymn.qm3dsc.nearme.gamecenter,2</package> <!--3D全民赛车-->
+<package>com.joym.bearsadventure.keke,2</package> <!--熊出没大冒险-->
+<package>com.ycoolgame.riseofsteel.nearme.gamecenter,2</package> <!--钢铁英雄-->
+<package>com.gameloft.android.ANMP.GloftA9HM,2</package> <!--狂野飙车9-->
+<package>com.ddy.cjwpscs.nearme.gamecenter,2</package> <!--超级王牌赛车手-->
+<package>com.hq.Ultramancszzdd.nearme.gamecenter,2</package> <!--奥特曼传说之战（重名）-->
+<package>me.ht.local.hot,2</package> <!--最囧游戏2-->
+<package>com.jycx.klqsz.nearme.gamecenter,2</package> <!--恐龙求生战-->
+<package>com.yunbu.archeryelite.nearme.gamecenter,2</package> <!--最强神射手-->
+<package>cn.ultralisk.game20.nearme.gamecenter,2</package> <!--巨神战击队3-->
+<package>com.xianlai.mahjonghainan,2</package> <!--琼崖海南麻将-->
+<package>com.snsgz.apk.nearme.gamecenter,2</package> <!--少年三国志-->
+<package>com.haoxin.ultramanyxcs.nearme.gamecenter,2</package> <!--奥特曼英雄传说-->
+<package>com.fengguo.wpjz.nearme.gamecenter,2</package> <!--王牌机战-->
+<package>com.dingogames.tastyblue,2</package> <!--美味深蓝-->
+<package>com.kingnet.gundam.nearme.gamecenter,2</package> <!--敢达争锋对决-->
+<package>air.jp.ne.hap.mom,2</package> <!--妈妈把我的游戏藏起来了2-->
+<package>com.pdragon.junqi.nearme.gamecenter,2</package> <!--军棋-->
+<package>com.dodjoy.qhzs.nearme.gamecenter,2</package> <!--枪神对决-->
+<package>com.patastudio.crazycooking.nearme.gamecenter,2</package> <!--天天爱烹饪-->
+<package>com.pixadventure.nearme.gamecenter,2</package> <!--荒野生存大冒险-->
+<package>com.netmarble.ffightgm,2</package> <!--未来之战-->
+<package>com.heimai666.ninja.nearme.gamecenter,2</package> <!--刃心-->
+<package>com.yzyfs.net.nearme.gamecenter,2</package> <!--御封神-->
+<package>com.gamelar.larva.nearme.gamecenter,2</package> <!--爆笑虫子大冒险-->
+<package>com.libii.libbydessert.nearme.gamecenter,2</package> <!--莉比小公主梦幻甜品店-->
+<package>com.dodreams.driveahead,2</package> <!--撞头赛车-->
+<package>com.jg.dtszj.nearme.gamecenter,2</package> <!--大天使之剑H5-->
+<package>com.lc.jongthree.nearme.gamecenter,2</package> <!--创造大明星-->
+<package>com.tencent.tmgp.mt4,2</package> <!--我叫MT4-->
+<package>com.igame.lhzs.nearme.gamecenter,2</package> <!--烈火战神-->
+<package>com.mingya.shark.nearme.gamecenter,2</package> <!--真实模拟鲨鱼捕食-->
+<package>com.jedigames.p16s.nearme.gamecenter,2</package> <!--银河战舰-->
+<package>org.tinghood.TpsForMobile.nearme.gamecenter,2</package> <!--台球帝国-->
+<package>com.njtd.zswqmnq.nearme.gamecenter,2</package> <!--让武器飞-->
+<package>com.myappz.firegirlWaterboy,2</package> <!--森林冰火人-->
+<package>it.rortos.airfighterspro,2</package> <!--模拟空战（AirFightersPro）-->
+<package>com.qipai007.Black7.nearme.gamecenter,2</package> <!--升级-->
+<package>com.nzyz.qmqzsj.nearme.gamecenter,2</package> <!--全民枪战射击-->
+<package>com.igame.kbzj.nearme.gamecenter,2</package> <!--狂暴战机-->
+<package>com.outfit7.tomsjetski.nearme.gamecenter,2</package> <!--动物快跑-->
+<package>com.wedobest.cyxxx.nearme.gamecenter,2</package> <!--成语消消消-->
+<package>com.yunbu.starlovestory.nearme.gamecenter,2</package> <!--莉莎的梦幻之旅-->
+<package>com.gameloft.android.ANMP.GloftA8HM,2</package> <!--\N-->
+<package>com.tencent.jian,2</package> <!--见-->
+<package>com.tongcn.bxdzz.nearme.gamecenter,2</package> <!--变形大作战-->
+<package>com.fingertip.feixingqi.nearme.gamecenter,2</package> <!--飞行棋大作战-->
+<package>com.mingya.crazytruck.nearme.gamecenter,2</package> <!--真实货车模拟：模拟卡车-->
+<package>com.leon.qyby.nearme.gamecenter,2</package> <!--趣游捕鱼-->
+<package>com.zsfz.bbbwszjll.nearme.gamecenter,2</package> <!--爸爸把我锁在家里了-->
+<package>com.igame.jqmx.nearme.gamecenter,2</package> <!--激情冒险-->
+<package>com.ztgame.fir.nearme.gamecenter,2</package> <!--征途2-->
+<package>ttby.zlkj.nearme.gamecenter,2</package> <!--天天捕鱼电玩版-->
+<package>com.joym.xiongchumo4.nearme.gamecenter,2</package> <!--熊出没4丛林冒险-->
+<package>com.zcjoy.hlsrddz.android.nearme.gamecenter,2</package> <!--欢乐四人斗地主-->
+<package>com.huoshe.qqtyt.nearme.gamecenter,2</package> <!--球球跳一跳-->
+<package>com.hsfish.oppo.nearme.gamecenter,2</package> <!--火山捕鱼-->
+<package>com.playflame.oilhunt2,2</package> <!--OilHunt2-->
+<package>com.ddianle.lovedance.nearme.gamecenter,2</package> <!--恋舞OL-->
+<package>com.kaopu.lhjx.nearme.gamecenter,2</package> <!--龙之怒吼-->
+<package>com.miquwan.sgzz.nearme.gamecenter,2</package> <!--三国战争-->
+<package>com.zsfz.bxjqfl3d.mfgame.nearme.gamecenter,2</package> <!--暴走雷龙战机-->
+<package>com.cdbabyjoy.pinyin,2</package> <!--儿童宝宝学拼音-->
+<package>com.ShenY.DDiZHU.nearme.gamecenter,2</package> <!--斗地主经典版-->
+<package>com.sngx.nearme.gamecenter,2</package> <!--少年歌行-->
+<package>com.joym.armorbear2018.nearme.gamecenter,2</package> <!--熊出没森林勇士-->
+<package>com.libii.halloweenboutique.nearme.gamecenter,2</package> <!--万圣节时装店-->
+<package>com.apowo.picatown.nearme.gamecenter,2</package> <!--皮卡堂3D-->
+<package>com.wedobest.zjscs.nearme.gamecenter,2</package> <!--指尖神车手-->
+<package>com.martian.hxjxgs.nearme.gamecenter,2</package> <!--滑翔极限高手-->
+<package>com.shiyue.sszg.nearme.gamecenter,2</package> <!--闪烁之光-->
+<package>com.liuguan.yddcs.nearme.gamecenter,2</package> <!--拥堵的城市-->
+<package>com.xt.mntcs.nearme.gamecenter,2</package> <!--恐龙狙击狩猎-->
+<package>com.wyd.hero.yqlfc.cb1.nearme.gamecenter,2</package> <!--一起来飞车-->
+<package>com.nova.redwolf.nearme.gamecenter,2</package> <!--火线荣耀-->
+<package>top.minnows.jiong3,2</package> <!--最囧游戏3-->
+<package>com.igame.mntljnc.nearme.gamecenter,2</package> <!--模拟拖拉机农场-->
+<package>com.gangqindaren.nearme.gamecenter,2</package> <!--白块儿钢琴达人-->
+<package>com.droidhang.ad.nearme.gamecenter,2</package> <!--放置奇兵-->
+<package>com.quantum.jwqy.nearme.gamecenter,2</package> <!--风云七剑-->
+<package>com.kdjh.leisunet.net.nearme.gamecenter,2</package> <!--口袋进化-->
+<package>com.sx.hlxj.nearme.gamecenter,2</package> <!--幻灵仙境-->
+<package>com.ty.fishing.nearme.gamecenter,2</package> <!--享越疯狂钓鱼-->
+<package>com.tencent.tako.muses,2</package> <!--云裳羽衣-->
+<package>com.games.hc.acing.nearme.gamecenter,2</package> <!--火柴人联盟2-->
+<package>com.melestudio.ColoringBook.nearme.gamecenter,2</package> <!--儿童画画-->
+<package>com.quduoduo.pixeldot.nearme.gamecenter,2</package> <!--画画数字填色-->
+<package>com.ycgame.smsy.nearme.gamecenter,2</package> <!--蜀门-->
+<package>com.invictus.giveitup2.oppo,2</package> <!--永不言弃2-->
+<package>com.tianyi.qljzmn.game.nearme.gamecenter,2</package> <!--桥梁建造模拟-->
+<package>com.xiaoji.emulator,2</package> <!--小鸡模拟器-->
+<package>com.igame.cstkdz.nearme.gamecenter,2</package> <!--超神坦克大战-->
+<package>mykp.nyt.nearme.gamecenter,2</package> <!--妈呀快跑-->
+<package>com.tencent.qqgame.qqfive,2</package> <!--欢乐五子棋-->
+<package>city.truck.race3d,2</package> <!--3D火车驾驶员-->
+<package>com.igame.klsl.nearme.gamecenter,2</package> <!--恐龙狩猎-->
+<package>com.tiandou.gameddsk.nearme.gamecenter,2</package> <!--模拟山羊-->
+<package>com.martian.RoomEscape17.nearme.gamecenter,2</package> <!--密室逃脱17守护公寓-->
+<package>com.xigua.xmws.nearme.gamecenter,2</package> <!--剑与契约-->
+<package>com.bear.UnLuckBear.nearme.gamecenter,2</package> <!--倒霉熊奇幻大冒险-->
+<package>com.tencent.tmgp.TCrossSGJQ,2</package> <!--腾讯天天军棋-->
+<package>com.feelingtouch.zf4.nearme.gamecenter,2</package> <!--僵尸前线4-->
+<package>com.yunbu.coloringcreative2.nearme.gamecenter,2</package> <!--神奇像素画-->
+<package>com.ripostegames.ctbz.nearme.gamecenter,2</package> <!--寸土必争-->
+<package>com.pwrd.wlwz.nearme.gamecenter,2</package> <!--武林外传-->
+<package>com.yunbu.restauranttycoon.nearme.gamecenter,2</package> <!--美食城大亨-->
+<package>com.lxd.xcmzcldzw.nearme.gamecenter,2</package> <!--熊出没之丛林大战2-->
+<package>com.zsfz.ncmn3d.nearme.gamecenter,2</package> <!--农场模拟3D-->
+<package>com.RoosterGames.TruckDriver2Multiplayer.t,2</package> <!--旋转轮胎-->
+<package>com.yyzy.nearme.gamecenter,2</package> <!--月圆之夜-->
+<package>com.halfbrick.fruitninja,2</package> <!--水果忍者-->
+<package>com.saturngame.pm2.nearme.gamecenter,2</package> <!--口袋日月-->
+<package>com.tnyoo.z.nearme.gamecenter,2</package> <!--黎明之路-->
+<package>air.com.tencent.qqfarmios,2</package> <!--QQ农场-->
+<package>com.wsy.wansuiye.nearme.gamecenter,2</package> <!--叫我万岁爷-->
+<package>com.wedobest.shudu.nearme.gamecenter,2</package> <!--数独-->
+<package>com.njyk.laoshumoni.nearme.gamecenter,2</package> <!--真实老鼠模拟-->
+<package>com.libii.mermaidparty,2</package> <!--美人鱼派对海底历险记-->
+<package>com.leyo.cjfx.nearme.gamecenter,2</package> <!--超级飞侠环球大冒险-->
+<package>com.zplay.beatracer.nearme.gamecenter,2</package> <!--电音超跑-->
+<package>com.netease.h48.nearme.gamecenter,2</package> <!--神都夜行录-->
+<package>com.tencent.tmgp.ttwq,2</package> <!--腾讯围棋-->
+<package>com.jumpw.mobile.nearme.gamecenter,2</package> <!--300大作战-->
+<package>com.redwords.hcrxs.nearme.gamecenter,2</package> <!--火柴人先生：刺激吃鸡-->
+<package>com.sg.ultramanheros.nearme.gamecenter,2</package> <!--奥特曼超人大战小怪兽-->
+<package>com.crazyant.tinyfatter.nearme.gamecenter,2</package> <!--你胖你先吃-->
+<package>com.wq.PixelBumperCar.nearme.gamecenter,2</package> <!--像素碰碰车-->
+<package>com.outfit7.mytalkingtomfree,2</package> <!--我的汤姆猫（宠物养成游戏）-->
+<package>com.liuguan.qhjj.nearme.gamecenter,2</package> <!--枪魂狙击-->
+<package>com.igame.fcry.nearme.gamecenter,2</package> <!--飞车荣耀-->
+<package>com.tomato.joy.xqdzz.nearme.gamecenter,2</package> <!--雪球大作战-->
+<package>com.idreamsky.terraria.nearme.gamecenter,2</package> <!--泰拉瑞亚-->
+<package>com.youmeng.rexueaotechaorengedou.nearme.gamecenter,2</package> <!--热血奥特超人格斗-->
+<package>cn.lemongrassmedia.loveworld.nearme.gamecenter,2</package> <!--恋世界-->
+<package>com.igame.nldbp.nearme.gamecenter,2</package> <!--脑力大比拼-->
+<package>com.seyeonsoft.pastel,2</package> <!--粉彩女孩-->
+<package>com.huoshe.wdccc.nearme.gamecenter,2</package> <!--无敌冲冲冲-->
+<package>com.outfit7.mytalkingangelafree,2</package> <!--我的安吉拉-->
+<package>com.pape.nuannew.nearme.gamecenter,2</package> <!--暖暖环游世界-->
+<package>com.BoonieBearsEntangledWorldsTWO.nearme.gamecenter,2</package> <!--熊出没奇幻空间2-->
+<package>com.wedobest.HD1010.nearme.gamecenter,2</package> <!--罗斯方块-->
+<package>com.mfgame.qmfc.nearme.gamecenter,2</package> <!--全民极品飞车2-->
+<package>com.tencent.tmgp.rxcq,2</package> <!--热血传奇-->
+<package>com.jd.game.babyline.nearme.gamecenter,2</package> <!--宝宝爱连线-->
+<package>com.mfkj.djkysc.nearme.gamecenter,2</package> <!--单机狂野赛车-->
+<package>com.pdragon.HD1010,2</package> <!--方块消除小游戏-->
+<package>com.superevilmegacorp.game,2</package> <!--虚荣(Vainglory)-->
+<package>com.pdragon.new2048,2</package> <!--新2048-->
+<package>wb.gc.xmxx.zxb,2</package> <!--消灭糖果-->
+<package>com.happygod.fireman,2</package> <!--火柴人大乱斗-->
+<package>com.tiancan.trucksform.nearme.gamecenter,2</package> <!--3D变形卡车-->
+<package>com.sj3975.rxcs.nearme.gamecenter,2</package> <!--热血传说-->
+<package>com.liuguan.cjmmmn.nearme.gamecenter,2</package> <!--超级妈妈模拟-->
+<package>com.whmd.ppcdmx.nearme.gamecenter,2</package> <!--碰碰车大冒险-->
+<package>com.catfun.happydmm.nearme.gamecenter,2</package> <!--开心躲猫猫-->
+<package>zxby.nearme.gamecenter,2</package> <!--指心捕鱼-->
+<package>com.tianyi.qjdhy.game.nearme.gamecenter,2</package> <!--秋季大荒原-->
+<package>com.wb.gttq.nearme.gamecenter,2</package> <!--高台跳球-->
+<package>com.taiyouxi.pk.oppo.nearme.gamecenter,2</package> <!--王牌御史-->
+<package>com.zsfz.yrttt2.nearme.gamecenter,2</package> <!--野人跳跳跳-->
+<package>com.zmxyol.union.keke.nearme.gamecenter,2</package> <!--造梦西游OL-->
+<package>com.quduoduo.nearme.gamecenter,2</package> <!--黑洞大作战：洞洞大乱斗-->
+<package>com.zq.kltoys.town.nearme.gamecenter,2</package> <!--快乐酷跑-->
+<package>com.joym.bearfarm.nearme.gamecenter,2</package> <!--熊出没之熊大农场-->
+<package>com.zsfz.ygcsdmn.nearme.gamecenter,2</package> <!--油罐车山地模拟-->
+<package>com.hgqn.xcmfkds.oppo,2</package> <!--熊出没之疯狂弹射-->
+<package>com.eyu.piano,2</package> <!--DreamPiano-->
+<package>com.mfkj.ryfc.nearme.gamecenter,2</package> <!--荣耀飞车-->
+<package>com.bomwan.nearme.gamecenter,2</package> <!--魔天记3D-->
+<package>com.tencent.tmgp.dragonnest,2</package> <!--龙之谷-->
+<package>com.netease.my,2</package> <!--\N-->
+<package>com.xzuson.game.homeburger.nearme.gamecenter,2</package> <!--有家汉堡包-->
+<package>com.nidong.cmswat.nearme.gamecenter,2</package> <!--正义枪战-->
+<package>cn.ultralisk.gameapp.game12.nearme.gamecenter,2</package> <!--巴啦啦魔法美妆2-->
+<package>com.weile.game,2</package> <!--\N-->
+<package>com.teayelp.whereareyou,2</package> <!--找你妹2015-->
+<package>com.cjfx.xqc.nearme.gamecenter,2</package> <!--超级飞侠向前冲-->
+<package>com.njtd.hcmnq.nearme.gamecenter,2</package> <!--火箭飞车-->
+<package>aiwan.DanceLine.nearme.gamecenter,2</package> <!--猎龙消消大作战-->
+<package>com.XXX.XCMZCLWZ.eagme.nearme.gamecenter,2</package> <!--熊出没之丛林王者-->
+<package>com.nnmyll.game.nearme.gamecenter,2</package> <!--魔域神曲：魔域来了-->
+<package>com.tencent.modoomarble,2</package> <!--天天富翁-->
+<package>com.yunbu.lovemonogatari.nearme.gamecenter,2</package> <!--心动美妆物语-->
+<package>com.gameloft.android.ANMP.GloftGGHM,2</package> <!--Gangstar4-->
+<package>tong.mgames.shcy.nearme.gamecenter,2</package> <!--深海大鱼吃小鱼-->
+<package>com.netease.ms3.nearme.gamecenter,2</package> <!--迷室3-->
+<package>cn.ultralisk.balala4,2</package> <!--巴啦啦魔法变身2-->
+<package>com.tianyi.kbgs.game.nearme.gamecenter,2</package> <!--恐怖故事-->
+<package>com.idreamsky.carcrash.nearme.gamecenter,2</package> <!--欢乐赛车大战-->
+<package>com.mfp.jelly.yingyongbao,2</package> <!--\N-->
+<package>com.lhyy.childrentaciturnly,2</package> <!--儿童宝宝蘑菇钉游戏-->
+<package>com.easymobi.plagueinc.oppo,2</package> <!--瘟疫公司-->
+<package>com.majiang.scmj3.nearme.gamecenter,2</package> <!--四川麻将-->
+<package>com.jsdw.zzxdongjiB.nearme.gamecenter,2</package> <!--火柴蜘蛛侠冬季版-->
+<package>com.qbankilltext.hualu.nearme.gamecenter,2</package> <!--谁是卧底-->
+<package>com.MXW.JJJT3D.nearme.gamecenter,2</package> <!--机甲军团：机器人时代3D-->
+<package>com.pspd.igame.nearme.gamecenter,2</package> <!--喷射派对-->
+<package>com.yunbu.magicprincess2.nearme.gamecenter,2</package> <!--魔法公主礼仪学院2-->
+<package>com.whjf.byfjmnjs.nearme.gamecenter,2</package> <!--波音飞机模拟驾驶-->
+<package>com.men.swfgame.scrawl,2</package> <!--儿童涂颜色游戏-->
+<package>com.lew.game.ballparkour.nearme.gamecenter,2</package> <!--球球跑酷-->
+<package>com.lg.xhlxd.nearme.gamecenter,2</package> <!--新葫芦兄弟-->
+<package>com.sg.atmdztcs.nearme.gamecenter,2</package> <!--奥特曼大战贪吃蛇-->
+<package>bf.sgs.hdexp,2</package> <!--\N-->
+<package>com.tinybuildgames.helloneighbor,2</package> <!--你好邻居-->
+<package>com.ltby.nearme.gamecenter,2</package> <!--雷霆霸业-->
+<package>com.kaixinhuoguodian.nearme.gamecenter,2</package> <!--开心火锅店-->
+<package>com.supercell.clashofclans.uc,2</package> <!--部落冲突-->
+<package>com.quanmai.pmp.nearme.gamecenter,2</package> <!--口袋新世代-->
+<package>com.ycoolgame.bubg.nearme.gamecenter,2</package> <!--绝密飞行-->
+<package>com.cy.lnkp.nearme.gamecenter,2</package> <!--露娜快跑-->
+<package>com.tomatojoy.fktl.nearme.gamecenter,2</package> <!--疯狂投篮-->
+<package>com.zsfz.wjjzsmn.nearme.gamecenter,2</package> <!--挖掘机真实模拟-->
+<package>com.yiru.yxsrs.zygame,2</package> <!--一小时人生-->
+<package>com.pokercity.ddz.nearme.gamecenter,2</package> <!--波克斗地主-->
+<package>com.minidip.mrwj.nearme.gamecenter,2</package> <!--末日危机-->
+<package>com.yunbu.flowergirl.nearme.gamecenter,2</package> <!--花花姑娘之美妆奇缘-->
+<package>com.snxyj.apk.nearme.gamecenter,2</package> <!--少年西游记-->
+<package>kiss.game.princess.kissing119731,2</package> <!--公主接吻-->
+<package>com.mediocre.grannysmith.nearme.gamecenter,2</package> <!--跑酷老奶奶-->
+<package>com.mfkj.tgqj.nearme.gamecenter,2</package> <!--糖果奇迹-->
+<package>com.cqwx.mmbwdyxcqll.nearme.gamecenter,2</package> <!--妈妈把我的游戏藏起来了-->
+<package>com.chumeng.zeus.nearme.gamecenter,2</package> <!--掌机小精灵-->
+<package>mobi.shoumeng.ttbc3d,2</package> <!--3D天天飙车-->
+<package>com.wb.shqq.nearme.gamecenter,2</package> <!--守护球球-->
+<package>com.puppetsgame.miracing.nearme.gamecenter,2</package> <!--小米赛车-->
+<package>com.sanjiu.cqss2.nearme.gamecenter,2</package> <!--传奇盛世2-->
+<package>com.fg.cat.nearme.gamecenter,2</package> <!--喵星变形军团-->
+<package>com.shijun.android.dwtd.nearme.gamecenter,2</package> <!--蠢蠢的死法-->
+<package>com.igame.zfz.nearme.gamecenter,2</package> <!--征服者-->
+<package>com.hzsf.hcrjjsxd.game.nearme.gamecenter,2</package> <!--火柴人狙击手行动-->
+<package>com.kpzz.nearme.gamecenter,2</package> <!--卡片战争-->
+<package>com.jym.kyfc.nearme.gamecenter,2</package> <!--我的狂野飞车-->
+<package>com.skiddy.nearme.gamecenter,2</package> <!--全民疯狂漂移-->
+<package>com.redwoods.hcrcjpd.nearme.gamecenter,2</package> <!--火柴人吃鸡派对-->
+<package>com.libii.CandyCakeShop.nearme.gamecenter,2</package> <!--糖糖蛋糕店-->
+<package>com.tencent.tmgp.gods,2</package> <!--全民超神-->
+<package>com.yunbu.badmintonleague.nearme.gamecenter,2</package> <!--羽毛球高高手-->
+<package>com.miniclip.bowmasters,2</package> <!--弓箭手们-->
+<package>com.shandagames.shelter.nearme.gamecenter,2</package> <!--辐射：避难所Online-->
+<package>com.libii.candydesserthouse.nearme.gamecenter,2</package> <!--糖糖甜品屋-->
+<package>com.cwxjlfk.nearme.gamecenter,2</package> <!--宠物小精灵复刻-->
+<package>com.wb.qwcq.nearme.gamecenter,2</package> <!--趣味彩球-->
+<package>com.pdragon.doushouqi.nearme.gamecenter,2</package> <!--斗兽棋-->
+<package>com.wedobest.feixingqi.nearme.gamecenter,2</package> <!--飞行棋-->
+<package>com.martian.RoomEscape8.nearme.gamecenter,2</package> <!--密室逃脱8红色豪宅-->
+<package>com.chn.snowballio.nearme.gamecenter,2</package> <!--雪地大作战-->
+<package>com.xhlw.hardtime.nearme.gamecenter,2</package> <!--新葫芦娃-->
+<package>air.com.martian.RoomEscape2.oppo,2</package> <!--密室逃脱古堡迷城2-->
+<package>com.zsfz.ljfdzz.nearme.gamecenter,2</package> <!--龙卷风大作战-->
+<package>com.tencent.tmgp.coslegend,2</package> <!--\N-->
+<package>com.csdj.motojsmn.nearme.gamecenter,2</package> <!--城市摩托车驾驶-->
+<package>com.wb.wmch.nearme.gamecenter,2</package> <!--完美重合-->
+<package>com.pdragon.aa.nearme.gamecenter,2</package> <!--见缝插针-->
+<package>so.wz.qius.nearme.gamecenter,2</package> <!--火线突击之热血反恐-->
+<package>com.ttx5.nearme.gamecenter,2</package> <!--天天炫舞-->
+<package>zzyxzc.cjzzx.nearme.gamecenter,2</package> <!--蜘蛛英雄战场-->
+<package>com.igame.hllbnc.nearme.gamecenter,2</package> <!--欢乐萝卜农场-->
+<package>com.sg.bjxgs.nearme.gamecenter,2</package> <!--奥特曼超人-->
+<package>com.shouxin.hwby.nearme.gamecenter,2</package> <!--海王捕鱼-->
+<package>com.tencent.everadventure,2</package> <!--无尽远征-->
+<package>com.joym.armorbloodwar.nearme.gamecenter,2</package> <!--铠甲勇士热血战神-->
+<package>com.funcity.carsbattletwo,2</package> <!--求生之王-->
+<package>wdmn.sjqig.nearme.gamecenter,2</package> <!--我的迷你世界-->
+<package>com.zcsc.nearme.gamecenter,2</package> <!--吃鸡战场生存-->
+<package>com.igames.qmlcbs.nearme.gamecenter,2</package> <!--全民列车比赛-->
+<package>com.libii.libbyunicorn.nearme.gamecenter,2</package> <!--莉比小公主梦幻独角兽-->
+<package>com.longlangyx.hcrzzsj.nearme.gamecenter,2</package> <!--火柴人战争：世界-->
+<package>com.dc01.nearme.gamecenter,2</package> <!--九州飞凰录-->
+<package>com.whmd.lkfy.nearme.gamecenter,2</package> <!--猎空风云-->
+<package>com.wb.gddsj.nearme.gamecenter,2</package> <!--滚动的世界-->
+<package>com.duole.paohuzihd.nearme.gamecenter,2</package> <!--多乐跑胡子-->
+<package>com.mycomp.cwjd.nearme.gamecenter,2</package> <!--宠物基地-->
+<package>com.zwyx.tkzm.nearme.gamecenter,2</package> <!--天空之门-->
+<package>com.zwtx.hjatcr.nearme.gamecenter,2</package> <!--合金奥特超人-->
+<package>com.whmd.jcsdtw.nearme.gamecenter,2</package> <!--巨齿鲨大逃亡-->
+<package>com.liuguan.xdfc.nearme.gamecenter,2</package> <!--炫动飞车-->
+<package>com.mfkj.xxdfm.nearme.gamecenter,2</package> <!--小熊的蜂蜜-->
+<package>com.galasports.basketball.nearme.gamecenter,2</package> <!--NBA篮球大师：最强王者-->
+<package>com.wb.lxgs.nearme.gamecenter,2</package> <!--连线高手-->
+<package>org.islq.move2048,2</package> <!--天天2048-->
+<package>com.zsfz.hcrxdyx.nearme.gamecenter,2</package> <!--火柴人侠盗英雄-->
+<package>com.MXW.SCSCCZC.nearme.gamecenter,2</package> <!--赛车赛车-->
+<package>com.yunbu.differences.nearme.gamecenter,2</package> <!--找茬高高手-->
+<package>com.libii.libbycarnival.nearme.gamecenter,2</package> <!--莉比小公主狂欢嘉年华-->
+<package>com.xinyi.mori.nearme.gamecenter,2</package> <!--末日机甲风暴之霹雳对战-->
+<package>com.zsfz.czczsmn.mfgame.nearme.gamecenter,2</package> <!--极品飙车-->
+<package>com.zhuzhuxia.kuaipao.nearme.gamecenter,2</package> <!--猪猪侠快跑-->
+<package>zombie.survival.craft.z,2</package> <!--地球末日生存-->
+<package>com.qyj.net.nearme.gamecenter,2</package> <!--青云诀-->
+<package>com.igame.cjfff.nearme.gamecenter,2</package> <!--超级翻翻翻-->
+<package>com.bf.HuoPinShuangKou.nearme.gamecenter,2</package> <!--火拼双扣-->
+<package>pl.idreams.pottery.oppo,2</package> <!--一起玩陶艺-->
+<package>gjssjdzz.gjssj.nearme.gamecenter,2</package> <!--弓箭手射箭大作战-->
+<package>com.tencent.tmgp.wesix,2</package> <!--消除者联盟-->
+<package>com.wedobest.llk.nearme.gamecenter,2</package> <!--连连看-->
+<package>com.libii.furrypetsalon.nearme.gamecenter,2</package> <!--毛绒宠物美容院-->
+<package>com.libii.winterparty.nearme.gamecenter,2</package> <!--莉比小公主之冰雪派对-->
+<package>com.youmeng.aotekuaipao.nearme.gamecenter,2</package> <!--热血奥特超人快跑-->
+<package>com.zsfz.gjc3dmn.nearme.gamecenter,2</package> <!--公交车3D模拟-->
+<package>com.kunpo.travelstring.jrtt,2</package> <!--旅行串串-->
+<package>com.mars.ssjjqlsj.nearme.gamecenter,2</package> <!--神兽金刚青龙射击-->
+<package>com.saiyun.qpbylwb.nearme.gamecenter,2</package> <!--捕鱼欢乐颂-->
+<package>com.wepie.snake,2</package> <!--\N-->
+<package>com.kunqi.dywz.nearme.gamecenter,2</package> <!--钓鱼王者-->
+<package>com.feamber.racing4.oppo,2</package> <!--猪猪侠百变飞车-->
+<package>com.vectorunit.redcmgeplaycn,2</package> <!--激流快艇2-->
+<package>com.jd.game.fruitsmasher.nearme.gamecenter,2</package> <!--水果消除-->
+<package>com.tencent.tapenjoy.actx,2</package> <!--魂武者-->
+<package>com.tomato.joy.hxdzjl.nearme.gamecenter,2</package> <!--红心大战接龙-->
+<package>com.yr.yxsrs.nearme.gamecenter,2</package> <!--希望之村-->
+<package>com.netease.ma71.nearme.gamecenter,2</package> <!--边境之旅-->
+<package>com.tencent.tmgp.ddtank,2</package> <!--弹弹堂-->
+<package>com.ggyx.hcrxzdg.nearme.gamecenter,2</package> <!--火柴人勋章帝国-->
+<package>com.huoshe.cjpkx.nearme.gamecenter,2</package> <!--超级跑酷侠-->
+<package>com.mytx.hcgtrqz.nearme.gamecenter,2</package> <!--火柴钢铁人枪战3D-->
+<package>com.tongcn.ymmbpb.nearme.gamecenter,2</package> <!--羊咩咩奔跑吧-->
+<package>com.quantum.ahjx.nearme.gamecenter,2</package> <!--暗黑觉醒-->
+<package>com.fingertip.saolei.nearme.gamecenter,2</package> <!--扫雷世界-->
+<package>com.fhxj.hardtime.nearme.gamecenter,2</package> <!--凤凰心计-->
+<package>com.joygame.fish2.nearme.gamecenter,2</package> <!--金手指捕鱼-->
+<package>com.djinnworks.StickmanBasketball.oppo,2</package> <!--火柴人篮球-->
+<package>com.zhangdong.dolls.nearme.gamecenter,2</package> <!--欢乐娃娃机-->
+<package>com.joypac.kaihi3.nearme.gamecenter,2</package> <!--神回避3-->
+<package>com.mfkj.shtyt.nearme.gamecenter,2</package> <!--深海探一探-->
+<package>com.yunbu.mermaidprincess.nearme.gamecenter,2</package> <!--人鱼公主美妆秀-->
+<package>com.mfkj.cltg.nearme.gamecenter,2</package> <!--初恋糖果-->
+<package>com.forgame.mmxd.nearme.gamecenter,2</package> <!--美美小店-->
+<package>com.igame.ozkc.nearme.gamecenter,2</package> <!--欧洲卡车-->
+<package>com.hlys.hcrgd.nearme.gamecenter,2</package> <!--火柴人格斗-->
+<package>com.mfkj.jsqs.nearme.gamecenter,2</package> <!--急速轻松躲避-->
+<package>com.dingogames.tastyplanet1lite,2</package> <!--美味星球-->
+<package>com.mars.bx.nearme.gamecenter,2</package> <!--神兽金刚3变形-->
+<package>org.cocos2d.jdqs2.nearme.gamecenter,2</package> <!--和王老汉一起攻克难关-->
+<package>com.jiayi.mxcq.nearme.gamecenter,2</package> <!--冒险传奇-->
+<package>com.zsfz.bxjqs3d.nearme.gamecenter,2</package> <!--变形机器鲨3D-->
+<package>com.xxhy.pokemon.nearme.gamecenter,2</package> <!--魔王乱入-->
+<package>com.zsfz.sxslj.nearme.gamecenter,2</package> <!--水下狩猎季-->
+<package>com.zulong.nine.nearme.gamecenter,2</package> <!--九州天空城3D-->
+<package>com.miragine.MiragineWar.nearme.gamecenter,2</package> <!--米拉奇战记-->
+<package>com.t2ksports.nba2k15android,2</package> <!--NBA2K15直装版-->
+<package>com.stickman.Stickman.nearme.gamecenter,2</package> <!--怒怼火柴人-->
+<package>com.yunbu.girlmagicmakeup.nearme.gamecenter,2</package> <!--美少女魔法美妆-->
+<package>com.martian.RoomEscape13.nearme.gamecenter,2</package> <!--密室逃脱13秘密任务-->
+<package>com.tencent.tmgp.dragonball,2</package> <!--龙珠激斗（七龙珠正版手游）-->
+<package>com.libii.candytoystore.nearme.gamecenter,2</package> <!--糖糖玩具店-->
+<package>com.dlmqfqt.net.nearme.gamecenter,2</package> <!--麻雀飞青天-->
+<package>com.libii.candymakeup.nearme.gamecenter,2</package> <!--糖果美妆派对-->
+<package>com.jg.cqjy.nearme.gamecenter,2</package> <!--斩月屠龙-->
+<package>com.yh.nxzsj.nearme.gamecenter,2</package> <!--虐心直升机-->
+<package>com.melestudio.PenRun.nearme.gamecenter,2</package> <!--奔跑吧铅笔-->
+<package>com.tencent.tmgp.ylm,2</package> <!--御龙在天-->
+<package>com.yh.zjdzz.nearme.gamecenter,2</package> <!--空中蹦蹦跳-->
+<package>com.mars.ssjghyjg.nearme.gamecenter,2</package> <!--神兽金刚3幻影金刚-->
+<package>com.liuguan.TMSXHC.nearme.gamecenter.nearme.gamecenter,2</package> <!--赛车向前冲-->
+<package>net.crimoon.pm.nearme.gamecenter,2</package> <!--热血精灵王-->
+<package>com.melestudio.PixelArtClassic.nearme.gamecenter,2</package> <!--数字填色像素涂色-->
+<package>mzgz.bxqy.nearme.gamecenter,2</package> <!--云想衣裳-->
+<package>com.rxsjfx.union.keke.nearme.gamecenter,2</package> <!--热血神剑-->
+<package>com.zsfz.jbxpg3.nearme.gamecenter,2</package> <!--击爆小苹果-->
+<package>air.com.oranginalplan.weaphonesvol2,2</package> <!--真实武器模拟2（weaphones）-->
+<package>com.yunbu.schoolrockstar.nearme.gamecenter,2</package> <!--高中乐队明星-->
+<package>cn.ultralisk.game39.nearme.gamecenter,2</package> <!--魔幻陀螺3刺激对战-->
+<package>com.jy.mj.hzmj.nearme.gamecenter,2</package> <!--来打红中麻将-->
+<package>com.k7game.app.shuangkou.nearme.gamecenter,2</package> <!--双扣-->
+<package>com.brdj.hyzl.nearme.gamecenter,2</package> <!--回忆之旅-->
+<package>com.syxx.mfzz.nearme.gamecenter,2</package> <!--魔法蜘蛛（重名）-->
+<package>com.qrgame.xscczc.nearme.gamecenter,2</package> <!--像素赛车战场-->
+<package>com.yqsby.nearme.gamecenter,2</package> <!--摇钱树捕鱼-->
+<package>com.zqhs.glcjjs.nearme.gamecenter,2</package> <!--公路超级竞赛-->
+<package>com.cqwx.dsbc.nearme.gamecenter,2</package> <!--登山飙车-->
+<package>com.xt.tytjdb.nearme.gamecenter,2</package> <!--跳一跳口袋版-->
+<package>com.thankcreate.NormalAdventure,2</package> <!--正常的大冒险-->
+<package>com.tapblaze.pizzabusiness,2</package> <!--美味的披萨-->
+<package>com.ball3d.union.keke.nearme.gamecenter,2</package> <!--翻滚球球-->
+<package>com.huoshe.cjwxg.nearme.gamecenter,2</package> <!--超级外星狗-->
+<package>com.libii.promqueen,2</package> <!--校园舞会之浪漫约会夜-->
+<package>com.snailgames.mydinosaur.nearme.gamecenter,2</package> <!--我的恐龙-->
+<package>com.mars.twddy.nearme.gamecenter,2</package> <!--跳舞的电音-->
+<package>com.yw.jykl.nearme.gamecenter,2</package> <!--救援恐龙-->
+<package>com.diyibo.snmj.nearme.gamecenter,2</package> <!--少年名将-->
+<package>com.volvapps.ef5.x.nearme.gamecenter,2</package> <!--空战争锋-->
+<package>com.eyesthegame.eyes,2</package> <!--恐怖之眼-->
+<package>com.netease.avgqv.nearme.gamecenter,2</package> <!--失忆偶像出道中-->
+<package>com.leyo.mxsg.nearme.gamecenter,2</package> <!--梦想三国之勇往直击-->
+<package>com.shandagames.falloutshelter.nearme.gamecenter,2</package> <!--辐射避难所-->
+<package>com.zsfz.bxjqfl3d.nearme.gamecenter,2</package> <!--变形机器飞龙3D-->
+<package>com.walle.roadextreme.nearme.gamecenter,2</package> <!--公路极速-->
+<package>com.zsfz.xfc3dmn.nearme.gamecenter,2</package> <!--消防车3D模拟-->
+<package>com.mfkj.ldzjjh.nearme.gamecenter,2</package> <!--雷电战机-->
+<package>com.lywx.tdqq.nearme.gamecenter,2</package> <!--跳动的球球-->
+<package>com.maichi.mcdzz.nearme.gamecenter,2</package> <!--萌宠大作战-->
+<package>com.mf.igame.hjqst.nearme.gamecenter,2</package> <!--幻姬骑士团-->
+<package>com.daqu.qmbfmt.OPPO.nearme.gamecenter,2</package> <!--全民暴风摩托-->
+<package>aj.dedg.gredfss.nearme.gamecenter,2</package> <!--棍子英雄联盟-->
+<package>com.szgd.GGBondrunning.nearme.gamecenter,2</package> <!--猪猪侠向前冲-->
+<package>com.rzmlb.nearme.gamecenter,2</package> <!--忍者大乱斗高爆版-->
+<package>com.zongyi.colorelax.nearme.gamecenter,2</package> <!--涂色大师-->
+<package>com.youguo.blocks.nearme.gamecenter,2</package> <!--被尘封的故事-->
+<package>com.zsfz.jsyx.nearme.gamecenter,2</package> <!--僵尸游戏-->
+<package>cn.ultralisk.gameapp.game09.nearme.gamecenter,2</package> <!--巴啦啦魔法变身3-->
+<package>com.GreatLiu.TeachingFeeling,2</package> <!--与奴隶的生活汉化版-->
+<package>com.nekki.shadowfight3,2</package> <!--ShadowFight3-->
+<package>com.pdragon.tshy.nearme.gamecenter,2</package> <!--涂色花园-->
+<package>com.zsfz.zwnzjsw3.nearme.gamecenter,2</package> <!--植物怒战僵尸王-->
+<package>com.kamitu.drawsth.standalone.free.android,2</package> <!--疯狂猜成语-->
+<package>com.tencent.tmgp.tcg,2</package> <!--贪吃小怪物-->
+<package>com.igame.yhsc.nearme.gamecenter,2</package> <!--银河赛车-->
+<package>com.gzyr.ksdzz.nearme.gamecenter,2</package> <!--考试大作战-->
+<package>com.jd.game.piperoll.nearme.gamecenter,2</package> <!--宝宝开心接水管-->
+<package>com.heitao.yhdzz.nearme.gamecenter,2</package> <!--约战:精灵再临-->
+<package>com.zsfz.ncmn3d.mfgame.nearme.gamecenter,2</package> <!--我消你蔬菜-->
+<package>com.cqwx.hcrss.nearme.gamecenter,2</package> <!--火柴人射手-->
+<package>com.huoshe.hsdmx.nearme.gamecenter,2</package> <!--皇室大冒险-->
+<package>com.fazbro.army.nearme.gamecenter,2</package> <!--反恐突击队：模拟武装运输-->
+<package>com.tencent.zqry2018,2</package> <!--全民冠军足球-->
+<package>com.wedobest.puzzlebubble.nearme.gamecenter,2</package> <!--泡泡龙消消乐-->
+<package>com.taome.jjr.nearme.gamecenter,2</package> <!--一直奔向月-->
+<package>com.yzy.hlqqwxcj.OPPO.nearme.gamecenter,2</package> <!--欢乐球球无限冲击-->
+<package>com.mingya.hillclimbracing.nearme.gamecenter,2</package> <!--真实山地越野：4X4拉力赛-->
+<package>com.slbhrycslsm.efun.nearme.gamecenter,2</package> <!--冰火人勇闯森林神庙-->
+<package>com.leyo.gbtg.nearme.gamecenter,2</package> <!--果宝特攻4热血机甲王-->
+<package>com.tencent.tmgp.cysgj,2</package> <!--成语小秀才-->
+<package>com.wuyaogamer.zhuzhuxiack.nearme.gamecenter,2</package> <!--猪猪侠机甲王-->
+<package>com.mfgame.qll.nearme.gamecenter,2</package> <!--墙来了-->
+<package>com.zsfz.ppdr.nearme.gamecenter,2</package> <!--跑跑达人-->
+<package>com.mfkj.xhc.nearme.gamecenter,2</package> <!--小火车:开始比赛-->
+<package>com.bjjy.mfzz.nearme.gamecenter,2</package> <!--魔法蜘蛛-->
+<package>com.mf.igame.fhzcj.nearme.gamecenter,2</package> <!--凤凰座出击-->
+<package>com.wali.xmcs.nearme.gamecenter,2</package> <!--小米超神-->
+<package>com.idreamsky.mekorama.nearme.gamecenter,2</package> <!--机械迷宫-->
+<package>com.fourddz.nearme.gamecenter,2</package> <!--四人斗地主-->
+<package>com.hugenstar.jjjt.nearme.gamecenter,2</package> <!--机甲军团-->
+<package>xjyll.yypk.nearme.gamecenter,2</package> <!--叶罗丽跑酷天团-->
+<package>com.herotower.jrtt,2</package> <!--火枪英雄-->
+<package>cn.ultralisk.gameapp.game17.nearme.gamecenter,2</package> <!--叶罗丽美甲梦-->
+<package>com.baile.fish.nearme.gamecenter,2</package> <!--百乐捕鱼-->
+<package>com.libii.christmashairsalon.nearme.gamecenter,2</package> <!--圣诞美发屋-->
+<package>com.jsys.nearme.gamecenter,2</package> <!--金鲨银鲨-->
+<package>com.tencent.tmgp.kof98,2</package> <!--拳皇98终极之战-->
+<package>com.whjf.bbprs.nearme.gamecenter,2</package> <!--宝宝烹饪师-->
+<package>com.tencent.tmgp.bh3,2</package> <!--\N-->
+<package>com.zplay.ClashTank.nearme.gamecenter,2</package> <!--王牌大作战-->
+<package>com.zazz.wandou.nearme.gamecenter,2</package> <!--豌豆大作战-->
+<package>com.regexsoft.cruiseshipsimulator.nearme.gamecenter,2</package> <!--3D游轮驾驶模拟器-->
+<package>com.tomato.joy.cjdyx.nearme.gamecenter,2</package> <!--吃鸡大英雄-->
+<package>com.libii.talentedpetsshow,2</package> <!--天才宠物秀-->
+<package>com.tencent.tmgp.ffom,2</package> <!--自由幻想-->
+<package>com.hysjdxb.nearme.gamecenter,2</package> <!--海洋世界大寻宝-->
+<package>com.ythk.bxjg.nearme.gamecenter,2</package> <!--变形机器金刚-->
+<package>com.martian.RoomEscape15.nearme.gamecenter,2</package> <!--密室逃脱15神秘宫殿-->
+<package>com.xlcw.hxct.mgdd.nearme.gamecenter,2</package> <!--火线冲突-->
+<package>com.migame.kxddz.nearme.gamecenter,2</package> <!--开心斗地主-->
+<package>com.FourFire.InfiniteSoul,2</package> <!--无尽之魂-->
+<package>com.xf.lywz.nearme.gamecenter,2</package> <!--烈焰武尊-->
+<package>com.jym.zszsj.nearme.gamecenter,2</package> <!--真实直升机-->
+<package>com.yuhong.jbkb.nearme.gamecenter,2</package> <!--劲爆狂飙-->
+<package>com.joym.armorhero3.nearme.gamecenter,2</package> <!--铠甲勇士战神联盟-->
+<package>org.cocos2dx.zmxy.nearme.gamecenter,2</package> <!--造梦西游4-->
+<package>com.xm4399.hdczjh2.nearme.gamecenter,2</package> <!--皇帝成长计划2-->
+<package>com.tuyoo.fish.oppo.bydzz.nearme.gamecenter,2</package> <!--捕鱼大作战-->
+<package>com.qzyx.union.keke.nearme.gamecenter,2</package> <!--枪战英雄-->
+<package>com.njtd.catsimulator.nearme.gamecenter,2</package> <!--模拟猫咪-->
+<package>com.melestudio.CrazyPixelArt.nearme.gamecenter,2</package> <!--像素画画-->
+<package>com.whmd.qmsjlm.nearme.gamecenter,2</package> <!--全民射击联盟-->
+<package>com.zzonegame.aresvirus.nearme.gamecenter,2</package> <!--阿瑞斯病毒-->
+<package>com.leyo.cjfx3.nearme.gamecenter,2</package> <!--超级飞侠4缤纷乐园-->
+<package>com.thinkygame.android.tank.hot1.oppo.nearme.gamecenter,2</package> <!--坦克雄心-->
+<package>com.shandagames.mygj.nearme.gamecenter,2</package> <!--命运歌姬-->
+<package>com.libii.fashionmall.nearme.gamecenter,2</package> <!--时尚购物商场-->
+<package>com.lingmeng.oneline.nearme.gamecenter,2</package> <!--解谜一笔画-->
+<package>main.opalyer,2</package> <!--橙光游戏-->
+<package>com.bxfr.union.keke.nearme.gamecenter,2</package> <!--御剑修仙-->
+<package>com.orange.org_player_new_alone748794.nearme.gamecenter,2</package> <!--我做夫人那些年-->
+<package>com.tencent.tmgp.mhzxsy,2</package> <!--梦幻诛仙-->
+<package>com.netease.ma59.nearme.gamecenter,2</package> <!--劲舞时代-->
+<package>catobyte.superbunnyman,2</package> <!--超级兔子人-->
+<package>com.mykdb.nearme.gamecenter,2</package> <!--魔域口袋版-->
+<package>com.yzxx.zdxsjjzc.nearme.gamecenter,2</package> <!--子弹先生狙击战场-->
+<package>com.zsfz.bxjqk.nearme.gamecenter,2</package> <!--变形机器鲲-->
+<package>com.yunbu.magicgarden.nearme.gamecenter,2</package> <!--花花姑娘之魔法花园-->
+<package>com.ximigame.pengyouju,2</package> <!--朋友局-->
+<package>com.q1.YZSY.android.nearme.gamecenter,2</package> <!--远征手游-->
+<package>com.igame.cjzzr.nearme.gamecenter,2</package> <!--超级蜘蛛人-->
+<package>com.nnsdk.nnlczg.nearme.gamecenter,2</package> <!--龙城战歌-->
+<package>com.whmd.klsp.nearme.gamecenter,2</package> <!--快乐赛跑-->
+<package>com.tcg.leon,2</package> <!--危鸡之夜-->
+<package>com.tencent.tmgp.tmsk.qj2,2</package> <!--奇迹：觉醒-->
+<package>com.martian.dm100.nearme.gamecenter,2</package> <!--100道神秘的门-->
+<package>com.libii.cheffrance.nearme.gamecenter,2</package> <!--美食兄妹之法国餐厅-->
+<package>com.libii.princessvacation.nearme.gamecenter,2</package> <!--莉比小公主的假期之环游世界-->
+<package>it.uniud.hcilab.prepareforimpact,2</package> <!--PrepareforImpact-->
+<package>com.realcreator.human,2</package> <!--人类一败涂地-->
+<package>com.yymoon.LunaCNY,2</package> <!--干物少女-->
+<package>com.Lxd.DargonWarriorRace.nearme.gamecenter,2</package> <!--超级飞侠之荒野大冒险-->
+<package>com.youping.libi,2</package> <!--莉比公主时尚美甲-->
+<package>com.martian.sgjjl.nearme.gamecenter,2</package> <!--水管接接乐-->
+<package>com.ipeaksoft.keng16.nearme.gamecenter,2</package> <!--史上最坑爹的游戏16-->
+<package>com.tomato.joy.mycs.nearme.gamecenter,2</package> <!--魅影车手-->
+<package>com.tzy.jssc.nearme.gamecenter,2</package> <!--急速赛车-->
+<package>com.popcap.pvzthird,2</package> <!--\N-->
+<package>fly.sesgagames.mostafa_dragons2,2</package> <!--mostafafightdragon-->
+<package>cn.flytalk.shudu,2</package> <!--全民数独-->
+<package>com.nekki.shadowfight,2</package> <!--ShadowFight2-->
+<package>com.zsfz.sxslj3.nearme.gamecenter,2</package> <!--水下狩猎季-->
+<package>com.pld.shikongfeiche.nearme.gamecenter,2</package> <!--失控飞车-->
+<package>com.hxyt.jpkyfc.OPPO.nearme.gamecenter,2</package> <!--狂野极品飞车-->
+<package>com.yunbu.restauranttycoon.cake.nearme.gamecenter,2</package> <!--梦想蛋糕屋-->
+<package>com.libii.candyhotel.nearme.gamecenter,2</package> <!--糖糖假日-->
+<package>com.rcflightsim.cvplane2,2</package> <!--模拟遥控飞机-->
+<package>com.yinhu.sdk.shcb.nearme.gamecenter,2</package> <!--守护大作战-->
+<package>com.E8game.findcat2.nearme.gamecenter,2</package> <!--天天躲猫猫2-->
+<package>com.yifeng.battlesnake.nearme.gamecenter,2</package> <!--贪吃蛇蛇争霸-->
+<package>xbh.ghbxtx.nearme.gamecenter,2</package> <!--变形战车-->
+<package>com.lsdj.Qqdazhan.nearme.gamecenter,2</package> <!--球球大战-->
+<package>com.quduoduo.babysitter.nearme.gamecenter,2</package> <!--照顾宝宝-->
+<package>com.melestudio.PonyPetSalon.nearme.gamecenter,2</package> <!--独角兽宝莉-->
+<package>com.miniclip.angerofstick2.nearme.gamecenter,2</package> <!--火柴人突击格斗-->
+<package>com.mlfhsbz.nearme.gamecenter,2</package> <!--烽火十八州-->
+<package>com.zfkzk.yhlm.nearme.gamecenter,2</package> <!--飓风空战队-->
+<package>com.ttbn.ximao.opl.nearme.gamecenter,2</package> <!--天天捕鸟-->
+<package>com.martian.RoomEscape21.nearme.gamecenter,2</package> <!--密室逃脱21遗落梦境-->
+<package>com.igame.ljfdld.nearme.gamecenter,2</package> <!--龙卷风大乱斗-->
+<package>com.mingya.truckmaster.nearme.gamecenter,2</package> <!--模拟卡车大师-->
+<package>com.joym.armorhero.oppo,2</package> <!--铠甲勇士之英雄传说-->
+<package>com.martian.RoomEscape24.nearme.gamecenter,2</package> <!--密室逃脱24末日危机-->
+<package>com.jd.game.jewelscrush.nearme.gamecenter,2</package> <!--宝石消灭-->
+<package>com.baitian.szx.ywq.nearme.gamecenter,2</package> <!--螺旋圆舞曲-->
+<package>com.shouxin.hbqq.nearme.gamecenter,2</package> <!--火爆球球-->
+<package>com.sxiaoao.moto3dOnline,2</package> <!--3D摩托飞车-->
+<package>com.qrgame.bxcr.nearme.gamecenter,2</package> <!--变形超人-->
+<package>com.duoyi.m2csm.nearme.gamecenter,2</package> <!--传送门骑士-->
+<package>com.tencent.tmgp.mff,2</package> <!--漫威:未来之战-->
+<package>com.tuyoo.gomoku.nearme.gamecenter,2</package> <!--途游五子棋-->
+<package>cn.ultralisk.game29.nearme.gamecenter,2</package> <!--爆兽猎人之龙魂觉醒-->
+<package>com.fhgc.cq.nearme.gamecenter,2</package> <!--烽火攻城-->
+<package>cn.ultralisk.gameapp.game31.nearme.gamecenter,2</package> <!--小花仙守护天使-->
+<package>com.jd.game.candyfrenzy.nearme.gamecenter,2</package> <!--糖果天天消-->
+<package>com.cbzj.nearme.gamecenter,2</package> <!--潮爆战纪-->
+<package>com.candyrufusgames.survivalcrafttrial,2</package> <!--孤岛求生-->
+<package>com.cqwx.hcrzb.nearme.gamecenter,2</package> <!--火柴人争霸-->
+<package>com.tencent.tmgp.p2y9y.yujianxy.nearme.gamecenter,2</package> <!--御剑仙缘-->
+<package>com.lqs.kaisi.bill.nearme.gamecenter,2</package> <!--2D桌球单机游戏-->
+<package>com.autonavi.minimap,2</package> <!--高德地图-->
+<package>com.baidu.BaiduMap,2</package> <!--百度地图-->
+<package>com.sdu.didi.psnger,2</package> <!--滴滴出行-->
+<package>com.tmri.app.main,2</package> <!--交管12123-->
+<package>com.tencent.map,2</package> <!--腾讯地图-->
+<package>com.MobileTicket,2</package> <!--铁路12306-->
+<package>com.didapinche.booking,2</package> <!--嘀嗒出行-->
+<package>com.sdu.didi.gsui,2</package> <!--滴滴车主-->
+<package>com.yipiao,2</package> <!--智行火车票-->
+<package>cn.eclicks.wzsearch,2</package> <!--车轮违章查询-->
+<package>com.ygkj.chelaile.standard,2</package> <!--车来了-->
+<package>com.mobike.mobikeapp,2</package> <!--摩拜单车-->
+<package>com.mygolbs.mybus,2</package> <!--掌上公交-->
+<package>so.ofo.labofo,2</package> <!--ofo共享单车-->
+<package>com.gtgj.view,2</package> <!--高铁管家-->
+<package>cn.caocaokeji.user,2</package> <!--曹操出行-->
+<package>com.ovital.ovitalMap,2</package> <!--奥维互动地图-->
+<package>enfc.metro,2</package> <!--亿通行-->
+<package>com.wz.yieryiersan,2</package> <!--12123-->
+<package>com.ichinait.gbpassenger,2</package> <!--首汽约车-->
+<package>com.violationquery,2</package> <!--车行易查违章-->
+<package>com.google.android.apps.maps,2</package> <!--Google 地图-->
+<package>com.xiguakeji.bddh,2</package> <!--北斗导航-->
+<package>cn.org.gzjjzd.gzjjzd,2</package> <!--贵州交警-->
+<package>com.getremark.spot,2</package> <!--Spot-->
+<package>com.google.earth,2</package> <!--Google 地球-->
+<package>com.zcbl.bjjj_driving,2</package> <!--北京交警-->
+<package>com.szzc,2</package> <!--神州租车-->
+<package>com.chebada,2</package> <!--巴士管家-->
+<package>com.ibike.publicbicycle.activity,2</package> <!--永安行-->
+<package>org.zywx.wbpalmstar.widgetone.uexaaagg10001,2</package> <!--安全守护-->
+<package>com.tieyou.train.ark,2</package> <!--铁友火车票-->
+<package>com.shunfengche.ride,2</package> <!--顺风车-->
+<package>com.txmpay.csewallet,2</package> <!--湘行一卡通-->
+<package>com.sdu.didi.gui,2</package> <!--滴滴司机-->
+<package>cn.mucang.xiaomi.android.wz,2</package> <!--全国违章查询-->
+<package>com.ehai,2</package> <!--一嗨租车-->
+<package>com.wsecar.wsjc,2</package> <!--万顺叫车-->
+<package>com.gvsoft.gofun,2</package> <!--GoFun出行-->
+<package>com.uroad.carclub,2</package> <!--ETC车宝-->
+<package>com.sdu.didi.beatles,2</package> <!--滴滴顺风车-->
+<package>com.kuaidi.daijia.driver,2</package> <!--滴滴代驾司机-->
+<package>com.pinke.driver,2</package> <!--顺风车司机端-->
+<package>com.example.artilleryandroid,2</package> <!--天眼-->
+<package>com.didapinche.taxidriver,2</package> <!--嘀嗒出租司机-->
+<package>com.szzc.ucar.pilot,2</package> <!--神州专车-->
+<package>com.meituan.qcs.c.android,2</package> <!--美团打车-->
+<package>com.tencent.qqlive,1</package> <!--腾讯视频-->
+<package>com.kuaishou.nebula,1</package> <!--快手极速版-->
+<package>com.qiyi.video,1</package> <!--爱奇艺-->
+<package>com.snda.wifilocating,1</package> <!--WiFi万能钥匙-->
+<package>com.ss.android.ugc.aweme.lite,1</package> <!--抖音极速版-->
+<package>com.kmxs.reader,1</package> <!--七猫免费小说-->
+<package>com.dragon.read,1</package> <!--番茄免费小说-->
+<package>tv.danmaku.bili,1</package> <!--哔哩哔哩-->
+<package>com.hunting.matrix_callershow,1</package> <!--嗨来电-->
+<package>com.jm.video,1</package> <!--刷宝短视频-->
+<package>tv.pps.mobile,1</package> <!--爱奇艺极速版-->
+<package>com.le123.ysdq,1</package> <!--影视大全-->
+<package>com.heytap.yoli,1</package> <!--视频APP-->
+<package>com.lechuan.mdwz,1</package> <!--米读极速版-->
+<package>com.baidu.homework,1</package> <!--作业帮-->
+<package>com.hunantv.imgo.activity,1</package> <!--芒果TV-->
+<package>com.ximalaya.ting.android,1</package> <!--喜马拉雅-->
+<package>com.tencent.wemeet.app,1</package> <!--腾讯会议-->
+<package>com.garena.game.codm,1</package> <!--Call of Duty?: Mobile - Garena-->
+<package>us.zoom.videomeetings,1</package> <!--ZOOM Cloud Meetings-->
+<package>com.parfield.prayers.lite,1</package> <!--Al-Moazin Lite (Prayer Times)-->
+<package>com.google.android.dialer,2</package> <!--google拨号盘-->
+<package>vsin.t16_funny_photo,0</package> <!--Pho.To.Lab-->
+<game>com.oppo.gallery3d,1</game>
+<game>com.coloros.gallery3d,1</game>
+<game>com.android.chrome,1</game> <!--Chrome浏览器-->
+<game>com.facebook.katana,1</game> <!--facebook-->
+<game>com.twitter.android,1</game> <!--twitter-->
+<game>com.andromo.dev84484.app262272,1</game> <!--twitter-->
+<game>com.google.android.youtube,1</game> <!--YouTube-->
+</refresh_rate_config>
+

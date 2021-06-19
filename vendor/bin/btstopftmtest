@@ -1,0 +1,7 @@
+#!/system/bin/sh
+setenforce 0
+
+#To enable scan
+iwpriv wlan0 setUnitTestCmd 9 1 1
+iwpriv wlan0 scan_disable 0
+

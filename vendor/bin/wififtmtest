@@ -1,0 +1,13 @@
+#!/system/bin/sh
+setenforce 0
+#add for bt test , disable bluetooth and ble scan
+svc bluetooth disable
+settings put global ble_scan_always_enabled 0
+#ifdef ODM_HQ_EDIT
+#lijun@ODM_HQ.Connectivity,2770267, 2020/06/30, start
+#set persist.bluetooth.soc.alwayson  ,this will  make bt download fw every time and
+# can get the antenna permission
+setprop persist.bluetooth.soc.alwayson false
+#ijun@ODM_HQ.Connectivity, 2770267, 2020/06/30, end
+#endif /*ODM_HQ_EDIT
+ftmdaemon -n

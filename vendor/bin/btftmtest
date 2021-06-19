@@ -1,0 +1,15 @@
+#!/system/bin/sh
+setenforce 0
+
+#enable wifi
+svc wifi enable
+
+sleep 1
+
+#To disable scan
+iwpriv wlan0 setUnitTestCmd 9 2 1 0
+iwpriv wlan0 scan_disable 1
+
+sleep 1
+
+ftmdaemon -n -dd
